@@ -19,3 +19,9 @@ export class Project {
     @JsonProperty("images", [Image])
     images: Image[];
 }
+
+@JsonObject
+export class Projects {
+    @JsonProperty("projects",  [Project])
+    projects: Project[];
+}

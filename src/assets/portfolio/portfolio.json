@@ -1,0 +1,26 @@
+{
+    "projects": [
+        {
+            "name": "Cake Project",
+            "description": "The cakiest project",
+            "category": "illustration",
+            "images": [
+                {
+                    "link": "Illustration/1 - Cake.jpg",
+                    "description": "A cake description"
+                }
+            ]
+        },
+        {
+            "name": "Cat project",
+            "description": "a cat project",
+            "category": "illustration",
+            "images": [
+                {
+                    "link": "Illustration/2- Scissor Cat of kroovit.jpg",
+                    "description": "A cake description"
+                }
+            ]
+        }
+    ]
+}

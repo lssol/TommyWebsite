@@ -1,11 +1,5 @@
-<div class="container-fluid">
-  <div class="col-md">
-
-  </div>
-  <div class="col-md">
-    
-  </div>
-  <div class="col-md">
-    
+<div class="container-fluid" *ngif="projects">
+  <div *ngFor="let project of projects" class="col-md">
+    <img src='{{ project.link }}' alt="">
   </div>
 </div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {JsonConvert} from "json2typescript";
-import {Image, Project} from "./gallery.model";
-import * as $ from "jquery"
+import {JsonConvert} from 'json2typescript';
+import {Image, Project, Projects} from './gallery.model';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-gallery',
@@ -10,17 +10,17 @@ import * as $ from "jquery"
 })
 
 export class GalleryComponent implements OnInit {
-  selectedGallery: string = "illustration";
+  projects: Project[];
+  selectedGallery = 'illustration';
   selectedProject: string = undefined;
 
   constructor() { }
 
   ngOnInit() {
-     $.getJSON("portfolio/portfolio.json", function(data){
-       console.log("hi :)");
-        console.log(this);
-        console.log(data);
-     });
+    const $this = this;
+    $.getJSON('assets/portfolio/portfolio.json', function(data) {
+      const jsonConvert: JsonConvert = new JsonConvert();
+      $this.projects = jsonConvert.deserializeObject(data, Projects);
+    });
   }
-
 }
