@@ -2,48 +2,51 @@ body {
 
 }
 header {
-    height:130px;
-    background-color: #fff6f4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height:130px;
+  background-color: #fff6f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #logo img {
-    height: 100px;
+  height: 100px;
 }
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-nav div {
-    padding-left:40px;
-    padding-right:40px;
-    padding-bottom:20px;
-    background-position: -1000px -1000px;
-    background-repeat: no-repeat;
+nav div a {
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom:20px;
+  background-position: -1000px -1000px;
+  background-repeat: no-repeat;
 }
-nav div:hover {
-    background-position: center bottom;
+nav div a:hover {
+  background-position: center bottom;
 }
-nav div#illustration {
-    background-image: url("assets/illustration-hover.png");
+nav a.active {
+  background-position: center bottom;
 }
-nav div#branding {
-    background-image: url("assets/branding-hover.png");
+nav div a#illustration {
+  background-image: url("assets/illustration-hover.png");
 }
-nav div#contact {
-    background-image: url("assets/contact-hover.png");
+nav div a#branding {
+  background-image: url("assets/branding-hover.png");
+}
+nav div a#contact {
+  background-image: url("assets/contact-hover.png");
 }
 a img {
-    border: none;
+  border: none;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 main .image img {
-    width:300px;
+  width:300px;
 }

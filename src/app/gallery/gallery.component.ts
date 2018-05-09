@@ -1,7 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import {JsonConvert} from 'json2typescript';
+import { GalleryService } from '../gallery.service';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+import { Location } from '@angular/common';
 import {Image, Project, Projects} from './gallery.model';
-import * as $ from 'jquery';
+import {pipe} from '@angular/core/src/render3/pipe';
+import {filter, switchMap, tap} from 'rxjs/operators';
+import {Observable, ObservableInput, Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-gallery',
@@ -10,17 +14,23 @@ import * as $ from 'jquery';
 })
 
 export class GalleryComponent implements OnInit {
+  @Input() selectedGallery: string = undefined;
   projects: Project[];
-  selectedGallery = 'illustration';
   selectedProject: string = undefined;
 
-  constructor() { }
+  constructor(
+    private galleryService: GalleryService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private location: Location
+  ) {  }
 
   ngOnInit() {
-    const $this = this;
-    $.getJSON('assets/portfolio/portfolio.json', function(data) {
-      const jsonConvert: JsonConvert = new JsonConvert();
-      $this.projects = jsonConvert.deserializeObject(data, Projects);
-    });
+    this.route.paramMap.subscribe(p => this.selectedGallery = p.get('category'));
+    this.galleryService.getPortfolioConfig(this.selectedGallery).subscribe(p => this.projects = p);
+    this.router.events.pipe(
+      filter(e => e instanceof NavigationEnd),
+      switchMap(() => this.galleryService.getPortfolioConfig(this.selectedGallery))
+    ).subscribe(p => this.projects = p);
   }
 }

@@ -1,27 +1,30 @@
-import {JsonObject, JsonProperty} from "json2typescript";
+import {JsonObject, JsonProperty} from 'json2typescript';
 
 @JsonObject
 export class Image {
-    @JsonProperty("link", String)
+    @JsonProperty('link', String)
     link: string;
-    @JsonProperty("description", String)
+    @JsonProperty('description', String)
     description: string;
 }
 
 @JsonObject
 export class Project {
-    @JsonProperty("name", String)
+    @JsonProperty('id', String)
+    id: number;
+    @JsonProperty('name', String)
     name: string;
-    @JsonProperty("description", String)
+    @JsonProperty('description', String)
     description: string;
-    @JsonProperty("category", String)
+    @JsonProperty('category', String)
     category: string;
-    @JsonProperty("images", [Image])
+    @JsonProperty('images', [Image])
     images: Image[];
 }
 
 @JsonObject
 export class Projects {
-    @JsonProperty("projects",  [Project])
+    @JsonProperty('projects',  [Project])
     projects: Project[];
 }
+

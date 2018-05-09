@@ -1,1 +1,28 @@
-<app-gallery></app-gallery>
+<header>
+  <div id="logo">
+    <a routerLink="/"><img src="../assets/logo.png" alt="Tsooki"></a>
+  </div>
+  <nav>
+    <div>
+      <a id="illustration" routerLink="/Gallery/illustration" routerLinkActive="active">
+        <img src="../assets/illustration.png" alt="Illustration">
+      </a>
+    </div>
+    <div>
+      <a id="branding" routerLink="/Gallery/branding" routerLinkActive="active">
+        <img src="../assets/branding.png" alt="Branding">
+      </a>
+    </div>
+    <div>
+      <a id="contact" routerLink="/Contact" routerLinkActive="active">
+        <img src="../assets/contact.png" alt="Contact">
+      </a>
+    </div>
+  </nav>
+  <div id="social">
+    instagram
+  </div>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>

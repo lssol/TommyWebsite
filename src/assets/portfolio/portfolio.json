@@ -1,26 +1,52 @@
-{
-    "projects": [
+[
+    {
+      "id": 1,
+      "name": "Cake Project",
+      "description": "The cakiest project",
+      "category": "illustration",
+      "images": [
         {
-            "name": "Cake Project",
-            "description": "The cakiest project",
-            "category": "illustration",
-            "images": [
-                {
-                    "link": "Illustration/1 - Cake.jpg",
-                    "description": "A cake description"
-                }
-            ]
-        },
-        {
-            "name": "Cat project",
-            "description": "a cat project",
-            "category": "illustration",
-            "images": [
-                {
-                    "link": "Illustration/2- Scissor Cat of kroovit.jpg",
-                    "description": "A cake description"
-                }
-            ]
+          "link": "Illustration/1 - Cake.jpg",
+          "description": "A cake description"
         }
-    ]
-}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Cat project",
+      "description": "a cat project",
+      "category": "illustration",
+      "images": [
+        {
+          "link": "Illustration/2- Scissor Cat of kroovit.jpg",
+          "description": "A cake description"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Cake Project",
+      "description": "The card",
+      "category": "branding",
+      "images": [
+        {
+          "link": "Branding/1 - Card.jpg",
+          "description": "A card description"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Wedding project",
+      "description": "a wedding project",
+      "category": "branding",
+      "images": [
+        {
+          "link": "Branding/2 - Wedding invitation.jpg",
+          "description": "A wedding description"
+        }
+      ]
+    }
+]
+
+
