@@ -2,7 +2,7 @@ import { GalleryService } from '../gallery.service';
 import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import { Location } from '@angular/common';
-import {Image, Project, Projects} from './gallery.model';
+import {Image, Project} from './gallery.model';
 import {pipe} from '@angular/core/src/render3/pipe';
 import {filter, switchMap, tap} from 'rxjs/operators';
 import {Observable, ObservableInput, Subscription} from 'rxjs';

@@ -1,0 +1,11 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  width:100%;
+}
+div.image {
+  flex: 1 1 33.3333%;
+  padding: 30px;
+}

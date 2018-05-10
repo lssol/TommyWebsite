@@ -41,12 +41,3 @@ nav div a#contact {
 a img {
   border: none;
 }
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-main .image img {
-  width:300px;
-}

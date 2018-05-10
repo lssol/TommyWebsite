@@ -1,30 +1,14 @@
-import {JsonObject, JsonProperty} from 'json2typescript';
-
-@JsonObject
 export class Image {
-    @JsonProperty('link', String)
     link: string;
-    @JsonProperty('description', String)
     description: string;
+    isBig: boolean;
 }
 
-@JsonObject
 export class Project {
-    @JsonProperty('id', String)
     id: number;
-    @JsonProperty('name', String)
     name: string;
-    @JsonProperty('description', String)
     description: string;
-    @JsonProperty('category', String)
     category: string;
-    @JsonProperty('images', [Image])
     images: Image[];
-}
-
-@JsonObject
-export class Projects {
-    @JsonProperty('projects',  [Project])
-    projects: Project[];
 }
 

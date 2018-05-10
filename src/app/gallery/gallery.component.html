@@ -1,7 +1,6 @@
-<div class="container-fluid" *ngIf="projects">
-  <h2>{{ selectedGallery }}</h2>
-  <div *ngFor="let project of projects" class="col-md-4">
-    <img src='assets/portfolio/{{ project.images[0].link }}' alt="{{project.images[0].description }}">
-    <p>Description: {{ project.description }}</p>
+<div id="gallery">
+  <div *ngFor="let project of projects" class="image">
+    <img src='assets/portfolio/{{ project.images[0].link }}' alt="{{ project.images[0].description }}">
+    <p>{{ project.description }}</p>
   </div>
 </div>
