@@ -1,11 +1,18 @@
 #gallery {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 img {
   width:100%;
 }
 div.image {
-  flex: 1 1 33.3333%;
+  flex: 0 1 33.33333%;
+  padding: 30px;
+}
+div.image-bg{
+  flex: 1 1 66.66666%!important;
   padding: 30px;
 }

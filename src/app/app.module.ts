@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     AppRoutingModule,
     CommonModule,

@@ -1,5 +1,5 @@
 <div id="gallery">
-  <div *ngFor="let project of projects" class="image">
+  <div *ngFor="let project of projects" class="image {{ project.images[0].isBig ? 'image-bg' : '' }}">
     <img src='assets/portfolio/{{ project.images[0].link }}' alt="{{ project.images[0].description }}">
     <p>{{ project.description }}</p>
   </div>

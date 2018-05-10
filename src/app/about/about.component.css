@@ -1,0 +1,17 @@
+#contact {
+  width: 750px;
+  margin: auto;
+  margin-top: 150px;
+}
+p, address {
+  text-align: center;
+}
+address img {
+  margin-right: 25px;
+}
+address {
+  margin-top: 50px;
+}
+p#fox {
+  margin-top: 150px;
+}

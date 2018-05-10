@@ -1,5 +1,12 @@
 body {
-
+  color: #8e7574;
+}
+a {
+  color: #8e7574;
+}
+a:hover {
+  color: #c6a2a2;
+  text-decoration: none;
 }
 header {
   height:130px;
@@ -10,6 +17,7 @@ header {
 }
 #logo img {
   height: 100px;
+  margin-left: 60px;
 }
 nav {
   display: flex;
@@ -40,4 +48,10 @@ nav div a#contact {
 }
 a img {
   border: none;
+  height:25px;
+}
+
+main {
+  max-width:1500px;
+  margin: auto;
 }
