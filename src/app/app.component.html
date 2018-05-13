@@ -1,6 +1,7 @@
 <header>
   <div id="logo">
     <a routerLink="/"><img src="../assets/logo.png" alt="Tsooki"></a>
+    <a id="logo-hover" routerLink="/"><img src="../assets/logo-hover.png" alt="Tsooki"></a>
   </div>
   <nav>
     <div>
@@ -23,6 +24,6 @@
     instagram
   </div>
 </header>
-<main>
-  <router-outlet></router-outlet>
+<main [@animRoutes]="getPage(appOutlet)">
+  <router-outlet #appOutlet="outlet"></router-outlet>
 </main>

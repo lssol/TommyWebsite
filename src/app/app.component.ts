@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
+import {routeAnimation} from './app.animation';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  animations: [ routeAnimation ]
 })
 export class AppComponent {
-  title = 'Illustration';
+  getPage(appOutlet): string {
+    return appOutlet.activatedRouteData['animation'];
+  }
 }

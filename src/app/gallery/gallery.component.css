@@ -12,7 +12,14 @@ div.image {
   flex: 0 1 33.33333%;
   padding: 30px;
 }
+div.image p {
+  margin-top:15px;
+}
 div.image-bg{
   flex: 1 1 66.66666%!important;
   padding: 30px;
+}
+div.image:hover img {
+  opacity: 0.8;
+  transition: .5s ease;
 }

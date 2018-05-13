@@ -1,5 +1,6 @@
 body {
   color: #8e7574;
+  font-family: custom_lato, serif;
 }
 a {
   color: #8e7574;
@@ -19,17 +20,29 @@ header {
   height: 100px;
   margin-left: 60px;
 }
+#logo a#logo-hover {
+  position: absolute;
+  left:0;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+#logo:hover a#logo-hover {
+  opacity: 100;
+  transition: 1s ease;
+}
+
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 nav div a {
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom:20px;
-  background-position: -1000px -1000px;
-  background-repeat: no-repeat;
+  padding-left:25px;
+  padding-right:25px;
+  padding-bottom: 26px;
+  background: no-repeat -1000px -1000px;
+  background-size: auto 28px;
 }
 nav div a:hover {
   background-position: center bottom;
@@ -46,12 +59,25 @@ nav div a#branding {
 nav div a#contact {
   background-image: url("assets/contact-hover.png");
 }
-a img {
+nav a img {
   border: none;
-  height:25px;
+  height:28px;
 }
 
 main {
-  max-width:1500px;
+  max-width:75%;
   margin: auto;
+}
+@font-face {
+  font-family: custom_lato;
+  src: url("assets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: custom_lato;
+  src: url("assets/fonts/Lato-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: custom_lato_light;
+  src: url("assets/fonts/Lato-Light.ttf");
 }
