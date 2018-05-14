@@ -35,7 +35,6 @@
     </div>
   </div>
 </header>
-<main>
-  <router-outlet >
-  </router-outlet>
+<main [@fadeAnimation]="getActivatedRoute(o)">
+  <router-outlet #o="outlet"></router-outlet>
 </main>
