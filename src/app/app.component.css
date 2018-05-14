@@ -1,5 +1,31 @@
-h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-  }
+#social {
+  display: flex;
+  height:30px;
+  align-items: center;
+  margin-right: 60px;
+}
+#social a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-size: 28px 28px;
+  margin: 5px;
+}
+#instagram a {
+  background-image: url('../assets/instagram.png');
+}
+#instagram a:hover {
+  background-image: url('../assets/instagram-hover.png');
+}
+#behance a {
+  background-image: url('../assets/behance.png');
+}
+#behance a:hover {
+  background-image: url('../assets/behance-hover.png');
+}
+#share a {
+  background-image: url('../assets/share.png');
+}
+#share a:hover {
+  background-image: url('../assets/share-hover.png');
+}
