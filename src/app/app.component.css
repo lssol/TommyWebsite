@@ -15,22 +15,25 @@ header {
   z-index: -50;
 }
 #logo {
+  position:relative;
   height:100%;
-  padding-top:15px;
-  padding-bottom:15px;
-  margin-left: 60px;
+  padding-top:25px;
+  padding-bottom:25px;
+  margin-left: 10px;
 }
-#logo img {
+#logo a img {
   height: 100%;
-}
-#logo a#logo-hover {
   position: absolute;
   left:0;
+  top:0;
+}
+#logo a img#logo-hover {
+  position: absolute;
   opacity: 0;
   transition: 1s ease;
 }
 
-#logo:hover a#logo-hover {
+#logo:hover a img#logo-hover {
   opacity: 100;
   transition: 1s ease;
 }
