@@ -8,12 +8,14 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavReduceOnScrollDirective } from './nav-reduce-on-scroll.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    AboutComponent
+    AboutComponent,
+    NavReduceOnScrollDirective
   ],
   imports: [
     BrowserModule,

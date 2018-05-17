@@ -9,65 +9,7 @@ a:hover {
   color: #c6a2a2;
   text-decoration: none;
 }
-header {
-  height:130px;
-  background-color: #fff6f4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#logo img {
-  height: 100px;
-  margin-left: 60px;
-}
-#logo a#logo-hover {
-  position: absolute;
-  left:0;
-  opacity: 0;
-  transition: 1s ease;
-}
 
-#logo:hover a#logo-hover {
-  opacity: 100;
-  transition: 1s ease;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-nav div a {
-  padding-left:25px;
-  padding-right:25px;
-  padding-bottom: 26px;
-  background: no-repeat -1000px -1000px;
-  background-size: auto 28px;
-}
-nav div a:hover {
-  background-position: center bottom;
-}
-nav a.active {
-  background-position: center bottom;
-}
-nav div a#illustration {
-  background-image: url("assets/illustration-hover.png");
-}
-nav div a#branding {
-  background-image: url("assets/branding-hover.png");
-}
-nav div a#contact {
-  background-image: url("assets/contact-hover.png");
-}
-nav a img {
-  border: none;
-  height:28px;
-}
-
-main {
-  max-width:75%;
-  margin: auto;
-}
 @font-face {
   font-family: custom_lato;
   src: url("assets/fonts/Lato-Regular.ttf");

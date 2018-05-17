@@ -1,3 +1,83 @@
+header {
+  height:130px;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff6f4;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s ease;
+}
+#header-ghost {
+  height:130px;
+  width: 100%;
+  z-index: -50;
+}
+#logo {
+  height:100%;
+  padding-top:15px;
+  padding-bottom:15px;
+  margin-left: 60px;
+}
+#logo img {
+  height: 100%;
+}
+#logo a#logo-hover {
+  position: absolute;
+  left:0;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+#logo:hover a#logo-hover {
+  opacity: 100;
+  transition: 1s ease;
+}
+.reducedHeader {
+  height:80px;
+  transition: 1s ease;
+}
+.reducedLogo {
+  height:65px;
+  transition: 1s ease;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav div a {
+  padding-left:25px;
+  padding-right:25px;
+  padding-bottom: 26px;
+  background: no-repeat -1000px -1000px;
+  background-size: auto 28px;
+}
+nav div a:hover {
+  background-position: center bottom;
+}
+nav a.active {
+  background-position: center bottom;
+}
+nav div a#illustration {
+  background-image: url("../assets/illustration-hover.png");
+}
+nav div a#branding {
+  background-image: url("../assets/branding-hover.png");
+}
+nav div a#contact {
+  background-image: url("../assets/contact-hover.png");
+}
+nav a img {
+  border: none;
+  height:28px;
+}
+
+main {
+  max-width:75%;
+  margin: auto;
+}
 #social {
   display: flex;
   height:30px;
