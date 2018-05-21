@@ -1,0 +1,5 @@
+<div id="gallery">
+  <div *ngFor="let image of project.images" class="image">
+    <img src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}">
+  </div>
+</div>

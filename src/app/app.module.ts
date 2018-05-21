@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

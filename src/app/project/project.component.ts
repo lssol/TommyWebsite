@@ -1,0 +1,32 @@
+import {Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+import {filter, switchMap} from 'rxjs/operators';
+import {Location} from '@angular/common';
+import {Image, Project} from '../gallery.model';
+import {GalleryService} from '../gallery.service';
+
+@Component({
+  selector: 'app-project',
+  templateUrl: './project.component.html',
+  styleUrls: ['./project.component.css']
+})
+export class ProjectComponent implements OnInit {
+  project: Project;
+  selectedProject: string = undefined;
+
+  constructor(
+    private galleryService: GalleryService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private location: Location
+  ) {  }
+
+  ngOnInit() {
+    this.route.paramMap.subscribe(p => this.selectedProject = p.get('project'));
+    this.galleryService.getProject(this.selectedProject).subscribe(p => this.project = p);
+    this.router.events.pipe(
+      filter(e => e instanceof NavigationEnd),
+      switchMap(() => this.galleryService.getProject(this.selectedProject))
+    ).subscribe(p => this.project = p);
+  }
+}
