@@ -22,7 +22,7 @@ export class ProjectComponent implements OnInit {
   ) {  }
 
   ngOnInit() {
-    this.route.paramMap.subscribe(p => this.selectedProject = p.get('project'));
+    this.route.paramMap.subscribe(p => this.selectedProject = p.get('id'));
     this.galleryService.getProject(this.selectedProject).subscribe(p => this.project = p);
     this.router.events.pipe(
       filter(e => e instanceof NavigationEnd),

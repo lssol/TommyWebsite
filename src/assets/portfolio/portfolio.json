@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "",
     "name": "Cake Project",
     "description": "The cakiest project",
     "category": "illustration",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": "",
     "name": "Cat project",
     "description": "a cat project",
     "category": "illustration",
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": "",
     "name": "Cat project",
     "description": "a cat project",
     "category": "illustration",
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": "",
     "name": "Mini Stuff",
     "description": "Mini Stuff",
     "category": "illustration",
@@ -49,21 +49,25 @@
     ]
   },
   {
-    "id": 1,
-    "name": "Cat project",
-    "description": "a cat project",
+    "id": "popland",
+    "name": "popland",
+    "description": "popland",
+    "game": true,
     "category": "branding",
     "images": [
       {
         "link": "Branding/game.png",
-        "description": "A cake description",
+        "description": "the best sax game",
         "isBig": true
-
+      },
+      {
+        "link": "Branding/card.jpg",
+        "description": "Cards"
       }
     ]
   },
   {
-    "id": 1,
+    "id": "",
     "name": "Cat project",
     "description": "a cat project",
     "category": "branding",
@@ -76,7 +80,7 @@
   },
 
   {
-    "id": 1,
+    "id": "",
     "name": "Cake Project",
     "description": "Wedding invitation",
     "category": "branding",
