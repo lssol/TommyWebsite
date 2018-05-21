@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavReduceOnScrollDirective } from './nav-reduce-on-scroll.directive';
 import { ProjectComponent } from './project/project.component';
 
 @NgModule({
@@ -14,10 +16,13 @@ import { ProjectComponent } from './project/project.component';
     AppComponent,
     GalleryComponent,
     AboutComponent,
+    NavReduceOnScrollDirective,
+    AboutComponent,
     ProjectComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     AppRoutingModule,
     CommonModule,

@@ -6,7 +6,20 @@
     "category": "illustration",
     "images": [
       {
-        "link": "Illustration/4 - Appartment of future kroovit.jpg",
+        "link": "Illustration/appartment.jpg",
+        "description": "A cake description",
+        "isBig": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Cat project",
+    "description": "a cat project",
+    "category": "illustration",
+    "images": [
+      {
+        "link": "Illustration/cat.jpg",
         "description": "A cake description"
       }
     ]
@@ -18,8 +31,20 @@
     "category": "illustration",
     "images": [
       {
-        "link": "Illustration/2- Scissor Cat of kroovit.jpg",
+        "link": "Illustration/cake.jpg",
         "description": "A cake description"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Mini Stuff",
+    "description": "Mini Stuff",
+    "category": "illustration",
+    "images": [
+      {
+        "link": "Illustration/mini.jpg",
+        "description": "Mini Stuff"
       }
     ]
   },
@@ -27,11 +52,13 @@
     "id": 1,
     "name": "Cat project",
     "description": "a cat project",
-    "category": "illustration",
+    "category": "branding",
     "images": [
       {
-        "link": "Illustration/2- Scissor Cat of kroovit.jpg",
-        "description": "A cake description"
+        "link": "Branding/game.png",
+        "description": "A cake description",
+        "isBig": true
+
       }
     ]
   },
@@ -39,59 +66,24 @@
     "id": 1,
     "name": "Cat project",
     "description": "a cat project",
-    "category": "illustration",
+    "category": "branding",
     "images": [
       {
-        "link": "Illustration/2- Scissor Cat of kroovit.jpg",
-        "description": "A cake description"
+        "link": "Branding/card.jpg",
+        "description": "Cards"
       }
     ]
   },
-  {
-    "id": 1,
-    "name": "Cat project",
-    "description": "a cat project",
-    "category": "illustration",
-    "images": [
-      {
-        "link": "Illustration/2- Scissor Cat of kroovit.jpg",
-        "description": "A cake description"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Cat project",
-    "description": "a cat project",
-    "category": "illustration",
-    "images": [
-      {
-        "link": "Illustration/2- Scissor Cat of kroovit.jpg",
-        "description": "A cake description"
-      }
-    ]
-  },
+
   {
     "id": 1,
     "name": "Cake Project",
-    "description": "The card",
+    "description": "Wedding invitation",
     "category": "branding",
     "images": [
       {
-        "link": "Branding/1 - Card.jpg",
-        "description": "A card description"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Wedding project",
-    "description": "a wedding project",
-    "category": "branding",
-    "images": [
-      {
-        "link": "Branding/2 - Wedding invitation.jpg",
-        "description": "A wedding description"
+        "link": "Branding/wedding.jpg",
+        "description": "Wedding invitation"
       }
     ]
   }

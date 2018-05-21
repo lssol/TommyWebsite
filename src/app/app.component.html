@@ -1,6 +1,9 @@
-<header>
+<header [class.reducedHeader]="reduceHeader">
   <div id="logo">
-    <a routerLink="/"><img src="../assets/logo.png" alt="Tsooki"></a>
+    <a routerLink="/">
+      <img id="logo-hover" src="../assets/logo-hover.png" alt="Tsooki">
+      <img src="../assets/logo.png" alt="Tsooki">
+    </a>
   </div>
   <nav>
     <div>
@@ -20,9 +23,21 @@
     </div>
   </nav>
   <div id="social">
-    instagram
+    <div id="instagram">
+      <a href="">
+      </a>
+    </div>
+    <div id="behance">
+      <a href="">
+      </a>
+    </div>
+    <div id="share">
+      <a href="">
+      </a>
+    </div>
   </div>
 </header>
-<main>
-  <router-outlet></router-outlet>
+<div id="header-ghost"></div>
+<main [@fadeAnimation]="getActivatedRoute(o)">
+  <router-outlet #o="outlet"></router-outlet>
 </main>

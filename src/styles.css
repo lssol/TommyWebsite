@@ -1,43 +1,25 @@
 body {
+  color: #8e7574;
+  font-family: custom_lato, serif;
+}
+a {
+  color: #8e7574;
+}
+a:hover {
+  color: #c6a2a2;
+  text-decoration: none;
+}
 
+@font-face {
+  font-family: custom_lato;
+  src: url("assets/fonts/Lato-Regular.ttf");
 }
-header {
-  height:130px;
-  background-color: #fff6f4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@font-face {
+  font-family: custom_lato;
+  src: url("assets/fonts/Lato-Bold.ttf");
+  font-weight: bold;
 }
-#logo img {
-  height: 100px;
-}
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-nav div a {
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom:20px;
-  background-position: -1000px -1000px;
-  background-repeat: no-repeat;
-}
-nav div a:hover {
-  background-position: center bottom;
-}
-nav a.active {
-  background-position: center bottom;
-}
-nav div a#illustration {
-  background-image: url("assets/illustration-hover.png");
-}
-nav div a#branding {
-  background-image: url("assets/branding-hover.png");
-}
-nav div a#contact {
-  background-image: url("assets/contact-hover.png");
-}
-a img {
-  border: none;
+@font-face {
+  font-family: custom_lato_light;
+  src: url("assets/fonts/Lato-Light.ttf");
 }
