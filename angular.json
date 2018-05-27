@@ -24,7 +24,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/portfolio/branding/popland/TemplateData/UnityProgress.js"
             ]
           },
           "configurations": {
