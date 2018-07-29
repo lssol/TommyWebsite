@@ -5,8 +5,9 @@ export class Image {
 }
 
 export class Project {
-    id: number;
+    id: string;
     name: string;
+    game: boolean;
     description: string;
     category: string;
     images: Image[];

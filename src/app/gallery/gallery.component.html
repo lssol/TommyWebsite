@@ -1,6 +1,8 @@
 <div id="gallery">
   <div *ngFor="let project of projects" class="image {{ project.images[0].isBig ? 'image-bg' : '' }}">
-    <img src='assets/portfolio/{{ project.images[0].link }}' alt="{{ project.images[0].description }}">
+    <a routerLink="/Project/{{ project.id }}">
+      <img src='assets/portfolio/{{ project.images[0].link }}' alt="{{ project.images[0].description }}">
+    </a>
     <p>{{ project.description }}</p>
   </div>
 </div>
