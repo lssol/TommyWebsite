@@ -37,6 +37,7 @@ address {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position:relative;
+  height: 270px;
 }
 @keyframes foxSpace {
    0% { transform: rotate(0deg) translateX(30px) rotate(0deg); }
