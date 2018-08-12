@@ -5,6 +5,9 @@
     </div>
   </div>
  <div *ngFor="let image of this.project.images" class="image">
-    <img src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}">
+    <div class="images-line" *ngIf="image.images">
+      <img *ngFor="let subImg of image.images" src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}">
+    </div>
+    <img *ngIf="!image.images" src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}">
   </div>
 </div>

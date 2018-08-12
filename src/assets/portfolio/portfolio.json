@@ -1,95 +1,255 @@
 [
   {
-    "id": "",
-    "name": "Cake Project",
-    "description": "The cakiest project",
+    "id": "childish-realism",
+    "name": "Childish Realism",
+    "description": "Childish Realism",
     "category": "illustration",
+    "mainImage": {
+      "link": "Illustration/1 Childish Realism.png",
+      "description": "Childish Realism",
+      "isBig": true
+    },
     "images": [
       {
-        "link": "Illustration/appartment.jpg",
-        "description": "A cake description",
-        "isBig": true
+        "link": "Illustration/1 Childish Realism/1 Airport.png",
+        "description": "Airport"
+      },
+      {
+        "link": "Illustration/1 Childish Realism/2 Rainy.png",
+        "description": "Rainy"
+      },
+      {
+        "link": "Illustration/1 Childish Realism/3 Park.png",
+        "description": "Park"
+      },
+      {
+        "link": "Illustration/1 Childish Realism/4 Room.png",
+        "description": "Room"
+      },
+      {
+        "link": "Illustration/1 Childish Realism/5 Market.png",
+        "description": "Market"
+      },
+      {
+        "link": "Illustration/1 Childish Realism/6 Love.png",
+        "description": "Love"
       }
     ]
   },
   {
-    "id": "",
-    "name": "Cat project",
-    "description": "a cat project",
+    "id": "colored-pencil",
+    "name": "Colored Pencil",
+    "description": "Colored Pencil",
     "category": "illustration",
+    "mainImage":
+    {
+      "link": "Illustration/3 Colored Pencils.jpg",
+      "description": "Colored Pencils"
+    },
     "images": [
       {
-        "link": "Illustration/cat.jpg",
-        "description": "A cake description"
+        "link": "Illustration/3 Colored Pencils.jpg",
+        "description": "Colored Pencils"
       }
     ]
   },
   {
-    "id": "",
-    "name": "Cat project",
-    "description": "a cat project",
+    "id": "cut-out",
+    "name": "Cut Out",
+    "description": "Cut Out",
     "category": "illustration",
+    "mainImage":
+      {
+        "link": "Illustration/2 Cut out.jpg",
+        "description": "Cut Out"
+      },
     "images": [
       {
-        "link": "Illustration/cake.jpg",
-        "description": "A cake description"
+        "link": "Illustration/2 Cut out/1 Birthday.jpg",
+        "description": "Birthday"
+      },
+      {
+        "link": "Illustration/2 Cut out/2 Cut Out.jpg",
+        "description": "2 Cut out"
       }
     ]
   },
   {
-    "id": "",
-    "name": "Mini Stuff",
-    "description": "Mini Stuff",
+    "id": "collage",
+    "name": "Collage",
+    "description": "Collage",
     "category": "illustration",
+    "mainImage": {
+      "link": "Illustration/6 Collage.png",
+      "description": "Collage"
+    },
     "images": [
       {
-        "link": "Illustration/mini.jpg",
-        "description": "Mini Stuff"
+        "link": "Illustration/6 Collage.png",
+        "description": "Collage"
+      }
+    ]
+  },
+  {
+    "id": "acrylic-painting",
+    "name": "Acrylic Painting",
+    "description": "Acrylic Painting",
+    "category": "illustration",
+    "mainImage":
+      {
+        "link": "Illustration/5 Acrylic Painting.png",
+        "description": "Acrylic Painting"
+      },
+    "images": [
+      {
+        "link": "Illustration/5 Acrylic Painting.png",
+        "description": "Acrylic Painting"
       }
     ]
   },
   {
     "id": "popland",
-    "name": "popland",
-    "description": "popland",
+    "name": "Popland",
+    "description": "Popland",
     "game": true,
     "category": "branding",
+    "mainImage": {
+      "link": "Branding/1 Popland.png",
+      "description": "Popland",
+      "isBig": true
+    },
     "images": [
       {
-        "link": "Branding/game.png",
-        "description": "the best sax game",
-        "isBig": true
+        "link": "Branding/1 Popland/1 MainCharacters.png",
+        "description": ""
       },
       {
-        "link": "Branding/card.jpg",
-        "description": "Cards"
+        "link": "Branding/1 Popland/2 Characters.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/3 Junk Food Villains.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/4 Mockup.jpg",
+        "description": ""
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/1 Popland/5.1.jpg",
+            "description": ""
+          },
+          {
+            "link": "Branding/1 Popland/5.2.jpg",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/1 Popland/6.1.jpg",
+            "description": ""
+          },
+          {
+            "link": "Branding/1 Popland/6.2.jpg",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/1 Popland/7.1.jpg",
+            "description": ""
+          },
+          {
+            "link": "Branding/1 Popland/7.2.jpg",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/1 Popland/8.1.jpg",
+            "description": ""
+          },
+          {
+            "link": "Branding/1 Popland/8.2.jpg",
+            "description": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "",
-    "name": "Cat project",
-    "description": "a cat project",
+    "id": "zahava",
+    "name": "Zahava",
+    "description": "Zahava",
     "category": "branding",
+    "mainImage":
+      {
+        "link": "Branding/2 Zahava.jpg",
+        "description": "Cards"
+      },
     "images": [
       {
-        "link": "Branding/card.jpg",
-        "description": "Cards"
+        "link": "Branding/2 Zahava/1 Zahava-Booklet.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/2 Zahava-Booklet.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/3 Zahava-Booklet.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/4 Zahava-Booklet.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/5 Cards.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/6 Homepage web Design.png",
+        "description": ""
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/2 Zahava/7.1 Zahava-girl.gif",
+            "description": ""
+          },
+          {
+            "link": "Branding/2 Zahava/7.2 Instagram-Gif.gif",
+            "description": ""
+          },
+          {
+            "link": "Branding/2 Zahava/7.3 Candles lady.gif",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "link": "Branding/2 Zahava/8 Launch Event Invitation.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/9 napkin-design.png",
+        "description": ""
+      },
+      {
+        "link": "Branding/2 Zahava/10 Sketches.png",
+        "description": ""
       }
     ]
-  },
 
-  {
-    "id": "",
-    "name": "Cake Project",
-    "description": "Wedding invitation",
-    "category": "branding",
-    "images": [
-      {
-        "link": "Branding/wedding.jpg",
-        "description": "Wedding invitation"
-      }
-    ]
   }
 ]
 

@@ -2,7 +2,7 @@ export class Image {
     link: string;
     description: string;
     isBig: boolean;
-
+    images: Image[];
 }
 
 export class Project {
@@ -11,6 +11,7 @@ export class Project {
     game: boolean;
     description: string;
     category: string;
+    mainImage: Image;
     images: Image[];
 }
 

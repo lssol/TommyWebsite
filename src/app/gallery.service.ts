@@ -16,10 +16,10 @@ export class GalleryService {
         map(projects => projects.filter(project => this.filterProjects(category, project)))
       );
   }
-  getProject(projectName: string): Observable<Project> {
+  getProject(projectId: string): Observable<Project> {
     return this.http.get<Project[]>('assets/portfolio/portfolio.json')
       .pipe(
-        map(projects => projects.filter(project => project.name == projectName)[0]),
+        map(projects => projects.filter(project => project.id == projectId)[0]),
       );
   }
 
