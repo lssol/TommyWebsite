@@ -2,6 +2,7 @@ export class Image {
     link: string;
     description: string;
     isBig: boolean;
+
 }
 
 export class Project {

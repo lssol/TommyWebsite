@@ -4,6 +4,7 @@ import {filter, switchMap} from 'rxjs/operators';
 import {Location} from '@angular/common';
 import {Image, Project} from '../gallery.model';
 import {GalleryService} from '../gallery.service';
+import {GameInstance} from '../game.instance';
 
 declare var UnityLoader;
 declare var UnityProgress;
@@ -13,7 +14,7 @@ declare var UnityProgress;
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.css']
 })
-export class ProjectComponent implements OnInit, AfterViewInit {
+export class ProjectComponent implements OnInit {
   project: Project;
   selectedProject: string = undefined;
 
@@ -21,7 +22,8 @@ export class ProjectComponent implements OnInit, AfterViewInit {
     private galleryService: GalleryService,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location
+    private location: Location,
+    private game: GameInstance
   ) {  }
 
   ngOnInit() {
@@ -29,6 +31,8 @@ export class ProjectComponent implements OnInit, AfterViewInit {
     this.galleryService.getProject(this.selectedProject)
       .subscribe(p => {
         this.project = p;
+        if (this.project.game)
+          this.loadGame();
       });
     this.router.events.pipe(
       filter(e => e instanceof NavigationEnd),
@@ -38,14 +42,16 @@ export class ProjectComponent implements OnInit, AfterViewInit {
       });
   }
 
-  ngAfterViewInit() {
+  loadGame() {
     var gameInstance;
     if (!gameInstance)
     {
+      let $this = this;
       window.setTimeout(function() {
-        gameInstance = UnityLoader.instantiate("gameContainer", "assets/portfolio/Branding/popland/Build/Web5.json", {onProgress: UnityProgress});
+        gameInstance = UnityLoader.instantiate("gameContainer", "assets/portfolio/Branding/popland/Build/Web5.json",
+          {onProgress: UnityProgress});
+        $this.game.gameInstance = gameInstance;
       }, 3000);
-
     }
   }
 }

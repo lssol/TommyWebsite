@@ -52,15 +52,16 @@ nav div a {
   padding-left:25px;
   padding-right:25px;
   padding-bottom: 26px;
-  background: no-repeat -1000px -1000px;
+  background: no-repeat -200px bottom;
   background-size: auto 28px;
 }
 nav div a:hover {
-  background-position: center bottom;
+  background-position-x: center;
 }
 nav a.active {
   background-position: center bottom!important;
 }
+
 nav div a#illustration {
   background-image: url("../assets/illustration-hover.png");
 }
@@ -89,24 +90,18 @@ main {
   width: 28px;
   height: 28px;
   display: inline-block;
-  background-size: 28px 28px;
+  background-size: 56px 28px;
   margin: 5px;
 }
-#instagram a {
-  background-image: url('../assets/instagram.png');
+#social a:hover {
+  background-position: -28px 0;
 }
-#instagram a:hover {
-  background-image: url('../assets/instagram-hover.png');
+#instagram a {
+  background-image: url('../assets/Instagram-Sprite.png');
 }
 #behance a {
-  background-image: url('../assets/behance.png');
-}
-#behance a:hover {
-  background-image: url('../assets/behance-hover.png');
+  background-image: url('../assets/Behance-Sprite.png');
 }
 #share a {
-  background-image: url('../assets/share.png');
-}
-#share a:hover {
-  background-image: url('../assets/share-hover.png');
+  background-image: url('../assets/Share-Sprite.png');
 }

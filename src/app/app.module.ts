@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavReduceOnScrollDirective } from './nav-reduce-on-scroll.directive';
 import { ProjectComponent } from './project/project.component';
+import {GameGuard} from './game-guard.service';
+import {GameInstance} from './game.instance';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { ProjectComponent } from './project/project.component';
     CommonModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [GameGuard, GameInstance],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
