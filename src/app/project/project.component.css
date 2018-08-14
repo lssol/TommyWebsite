@@ -8,5 +8,16 @@
 }
 img, .webgl-content {
   max-width: 100%;
-  margin:15px;
+  margin-top:90px;
+  margin-bottom: 90px;
+}
+.images-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:100%;
+}
+.images-line div {
+  margin:10px;
+  width:100%;
 }

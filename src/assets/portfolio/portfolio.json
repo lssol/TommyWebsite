@@ -120,7 +120,7 @@
     },
     "images": [
       {
-        "link": "Branding/1 Popland/1 MainCharacters.png",
+        "link": "Branding/1 Popland/1 Main Character.png",
         "description": ""
       },
       {
@@ -224,15 +224,18 @@
         "images": [
           {
             "link": "Branding/2 Zahava/7.1 Zahava-girl.gif",
-            "description": ""
+            "description": "",
+            "height": 300
           },
           {
             "link": "Branding/2 Zahava/7.2 Instagram-Gif.gif",
-            "description": ""
+            "description": "",
+            "height": 300
           },
           {
             "link": "Branding/2 Zahava/7.3 Candles lady.gif",
-            "description": ""
+            "description": "",
+            "height": 300
           }
         ]
       },

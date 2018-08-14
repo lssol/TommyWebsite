@@ -3,6 +3,9 @@ export class Image {
     description: string;
     isBig: boolean;
     images: Image[];
+    width: number;
+    height: number;
+
 }
 
 export class Project {

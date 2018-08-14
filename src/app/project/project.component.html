@@ -6,8 +6,12 @@
   </div>
  <div *ngFor="let image of this.project.images" class="image">
     <div class="images-line" *ngIf="image.images">
-      <img *ngFor="let subImg of image.images" src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}">
+      <div *ngFor="let subImg of image.images">
+        <img [style.width.px]="subImg.width ? subImg.width : 'auto'"  [style.height.px]="subImg.height ? subImg.height : 'auto'" src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}"/>
+      </div>
     </div>
-    <img *ngIf="!image.images" src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}">
+    <img
+      [ngStyle]="{width: image.width ? image.width : 'auto', height: image.height ? image.height : 'auto'}"
+      *ngIf="!image.images" src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
   </div>
 </div>
