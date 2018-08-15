@@ -48,7 +48,7 @@ export class ProjectComponent implements OnInit {
     {
       let $this = this;
       window.setTimeout(function() {
-        gameInstance = UnityLoader.instantiate("gameContainer", "assets/portfolio/Branding/popland/Build/Web5.json",
+        gameInstance = UnityLoader.instantiate("gameContainer", "assets/portfolio/Branding/popland/Build/web6.json",
           {onProgress: UnityProgress});
         $this.game.gameInstance = gameInstance;
       }, 3000);

@@ -11,6 +11,9 @@ img, .webgl-content {
   margin-top:90px;
   margin-bottom: 90px;
 }
+img {
+  max-height:600px;
+}
 .images-line {
   display: flex;
   flex-direction: row;
