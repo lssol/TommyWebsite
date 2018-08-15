@@ -210,18 +210,19 @@
   },
   {
     "id": "pondicherie",
-    "name": "Pondicherie",
-    "description": "Pondicherie",
+    "name": "Pondichérie",
+    "description": "Pondichérie",
     "game": false,
     "category": "branding",
     "mainImage": {
       "link": "Branding/3 Pondicherie.png",
-      "description": "Pondicherie"
+      "description": "Pondichérie"
     },
     "images": [
       {
         "link": "Branding/3 Pondicherie/1 Pondi Invitation.png",
-        "description": ""
+        "description": "",
+        "height": 900
       },
       {
         "link": "Branding/3 Pondicherie/2 Pondi-Square-Flyer.png",
@@ -250,7 +251,8 @@
     "images": [
       {
         "link": "Branding/4 The Brave Collection/1 Moonstone-Eblast.png",
-        "description": ""
+        "description": "",
+        "height": 950
       },
       {
         "link": "Branding/4 The Brave Collection/2 Reader digest post.png",
@@ -258,7 +260,8 @@
       },
       {
         "link": "Branding/4 The Brave Collection/3 eblast-pendant.png",
-        "description": ""
+        "description": "",
+        "height": 1700
       }
     ]
   },
@@ -286,16 +289,13 @@
         "description": ""
       },
       {
-        "link": "Branding/2 Zahava/4 Zahava-Booklet.png",
-        "description": ""
-      },
-      {
         "link": "Branding/2 Zahava/5 Cards.png",
         "description": ""
       },
       {
         "link": "Branding/2 Zahava/6 Homepage web Design.png",
-        "description": ""
+        "description": "",
+        "height": 1200
       },
       {
         "images": [
