@@ -1,9 +1,5 @@
 <div id="project" *ngIf="project">
-  <div *ngIf="project.game">
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-    </div>
-  </div>
+
  <div *ngFor="let image of this.project.images" class="image">
     <div class="images-line" *ngIf="image.images">
       <div *ngFor="let subImg of image.images">
@@ -13,5 +9,11 @@
     <img
       [ngStyle]="{width: image.width ? image.width : 'auto', height: image.height ? image.height : 'auto'}"
       *ngIf="!image.images" src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+  </div>
+  <div *ngIf="project.game" class="demoGame image">
+    <a href="assets/portfolio/Branding/popland/index.html" target="_blank">
+      <span></span>
+      <img src="assets/portfolio/Branding/1 Popland/Play-a-demo.png" alt="play a demo">
+    </a>
   </div>
 </div>

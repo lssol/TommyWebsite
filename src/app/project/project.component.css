@@ -6,7 +6,7 @@
   width:100%;
   text-align:center;
 }
-img, .webgl-content {
+img {
   max-width: 100%;
   margin-top:90px;
   margin-bottom: 90px;
@@ -15,9 +15,25 @@ img, .webgl-content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width:100%;
+  width: 100%;
 }
 .images-line div {
-  margin:10px;
-  width:100%;
+  margin: 10px;
+  width: 100%;
+}
+.demoGame span {
+  width: 120px;
+  height:150px;
+  display: inline-block;
+  background: url('/../../assets/portfolio/Branding/1 Popland/Playstation-play-button.png') no-repeat;
+}
+.demoGame img {
+  vertical-align: top;
+  margin-left: 60px;
+}
+.demoGame a:hover span {
+  background-position: -120px 0;
+}
+.demoGame a:hover img, .demoGame a:hover span{
+  filter: hue-rotate(-50deg) contrast(120%);
 }
