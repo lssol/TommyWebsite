@@ -1,8 +1,11 @@
-<div id="gallery">
-  <div *ngFor="let project of projects" class="image {{ project.mainImage.isBig ? 'image-bg' : '' }}">
-    <a routerLink="/Project/{{ project.id }}">
-      <img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}">
-      <p>{{ project.description }}</p>
-    </a>
+<div id="gallery" class="container">
+  <div class="row">
+    <div *ngFor="let project of projects" class="image {{ project.mainImage.isBig ? 'col-md-8' : 'col-md-4' }}">
+      <a routerLink="/Project/{{ project.id }}">
+        <img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}">
+        <p>{{ project.description }}</p>
+      </a>
+    </div>
   </div>
+
 </div>
