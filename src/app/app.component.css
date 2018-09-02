@@ -79,6 +79,7 @@ nav a img {
 main {
   max-width:75%;
   margin: auto;
+  margin-top:35px;
 }
 #social {
   display: flex;
