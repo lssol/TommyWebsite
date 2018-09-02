@@ -2,7 +2,7 @@
   <div *ngFor="let project of projects" class="image {{ project.mainImage.isBig ? 'image-bg' : '' }}">
     <a routerLink="/Project/{{ project.id }}">
       <img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}">
+      <p>{{ project.description }}</p>
     </a>
-    <p>{{ project.description }}</p>
   </div>
 </div>

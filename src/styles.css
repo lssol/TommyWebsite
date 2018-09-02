@@ -23,3 +23,10 @@ a:hover {
   font-family: custom_lato_light;
   src: url("assets/fonts/Lato-Light.ttf");
 }
+@font-face {
+  font-family: custom_prata;
+  src: url("assets/fonts/Prata-Regular.ttf");
+}
+::selection {
+  background: rgba(244, 141, 128, 0.4);
+}

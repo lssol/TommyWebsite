@@ -4,9 +4,15 @@
   margin-top: 150px;
   display: flex;
 }
+#contact p {
+  text-align: justify;
+  width: 90%;
+}
 h2 {
-  font-family: custom_lato_light, serif;
+  font-family: custom_prata, serif;
   font-size: 300%;
+  color: #F48D80;
+  margin-bottom: 25px;
 }
 address img {
   margin-right: 25px;

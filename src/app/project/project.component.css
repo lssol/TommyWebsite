@@ -38,5 +38,5 @@ img {
   background-position: -120px 0;
 }
 .demoGame a:hover img, .demoGame a:hover span{
-  filter: hue-rotate(-50deg) contrast(120%);
+  /*filter: hue-rotate(-50deg) contrast(120%);*/
 }
