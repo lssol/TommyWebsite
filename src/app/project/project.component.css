@@ -40,6 +40,10 @@ img {
 .demoGame a:hover img, .demoGame a:hover span{
   /*filter: hue-rotate(-50deg) contrast(120%);*/
 }
+.backButton {
+  position: absolute;
+  left:35px;
+}
 .backButton a {
   display: inline-block;
   width:150px;
@@ -48,4 +52,9 @@ img {
 }
 .backButton a:hover {
   background-position: -150px;
+}
+.backButton h2 {
+  text-align: center;
+  font-size: 184%;
+  font-family: custom_prata, serif;
 }

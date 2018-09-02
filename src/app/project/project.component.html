@@ -2,6 +2,9 @@
   <div class="backButton">
     <a routerLink="/Gallery/{{ project.category }}" title="Back to Project List"></a>
   </div>
+  <h2>
+    {{ project.description }}
+  </h2>
   <div *ngFor="let image of this.project.images" class="image">
     <div class="images-line" *ngIf="image.images">
       <div *ngFor="let subImg of image.images">
