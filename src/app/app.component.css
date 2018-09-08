@@ -1,4 +1,4 @@
-header {
+#desktopHeader {
   height:130px;
   width: 100%;
   z-index: 100;
@@ -78,7 +78,6 @@ nav a img {
 }
 
 main {
-  max-width:75%;
   margin: auto;
   margin-top:35px;
 }
@@ -107,4 +106,99 @@ main {
 }
 #share a {
   background-image: url('../assets/Share-Sprite.png');
+}
+
+
+
+
+
+
+
+
+/* Burger menu */
+@media screen and (max-width: 660px){
+  #mobileHeader {
+    display: block;
+  }
+  #desktopHeader {
+    display: none;
+  }
+  #header-ghost {
+    height:45px;
+  }
+}
+#mobileHeader
+{
+  display: block;
+  user-select: none;
+}
+
+#mobileHeader input
+{
+  display: block;
+  width: 30px;
+  height: 27px;
+  position: fixed;
+
+  top: 20px;
+  right: 20px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 10; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#mobileHeader span
+{
+  display: block;
+  width: 30px;
+  height: 27px;
+  position: fixed;
+  z-index: 5;
+  background-size: 30px 27px;
+
+  top: 20px;
+  right: 20px;
+  background-image: url('../assets/hamburger.png');
+}
+
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#mobileHeader input:checked ~ span
+{
+  background-image: url('../assets/Close-menu.png');
+}
+#mobileHeader input:checked ~ ul
+{
+  transform: none;
 }

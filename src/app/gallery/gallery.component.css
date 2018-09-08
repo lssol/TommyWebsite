@@ -7,12 +7,14 @@ div.image p {
   margin-top:10px;
   font-family: custom_prata, serif;
 }
-div.image:hover img {
-  /*opacity: 0.7;*/
-  /*filter: contrast(130%);*/
-}
-div.image img {
-}
 div.image:hover p {
-color: #F48D80;
+  color: #F48D80;
+}
+@media screen and (max-width: 660px) {
+  div.image p {
+    display: none;
+  }
+  div.image {
+    margin-bottom:15px;
+  }
 }

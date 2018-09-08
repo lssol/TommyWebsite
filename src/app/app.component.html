@@ -1,36 +1,47 @@
-<header [class.reducedHeader]="reduceHeader">
-  <div id="logo">
-    <a routerLink="/">
-      <img id="logo-hover" src="../assets/logo-hover.png" alt="Tsooki">
-      <img src="../assets/logo.png" alt="Tsooki">
-    </a>
+<header>
+  <div [class.reducedHeader]="reduceHeader" id="desktopHeader">
+    <div id="logo">
+      <a routerLink="/">
+        <img id="logo-hover" src="../assets/logo-hover.png" alt="Tsooki">
+        <img src="../assets/logo.png" alt="Tsooki">
+      </a>
+    </div>
+    <nav>
+      <div>
+        <a id="illustration" routerLink="/Gallery/illustration" routerLinkActive="active">
+          <img src="../assets/illustration.png" alt="Illustration">
+        </a>
+      </div>
+      <div>
+        <a id="branding" routerLink="/Gallery/branding" routerLinkActive="active">
+          <img src="../assets/branding.png" alt="Branding">
+        </a>
+      </div>
+      <div>
+        <a id="contact" routerLink="/Contact" routerLinkActive="active">
+          <img src="../assets/contact.png" alt="Contact">
+        </a>
+      </div>
+    </nav>
+    <div id="social">
+      <div id="instagram">
+        <a href="https://www.instagram.com/tsoooki/" target="_blank">
+        </a>
+      </div>
+      <div id="behance">
+        <a href="https://www.behance.net/tommynkae70a" target="_blank">
+        </a>
+      </div>
+    </div>
   </div>
-  <nav>
-    <div>
-      <a id="illustration" routerLink="/Gallery/illustration" routerLinkActive="active">
-        <img src="../assets/illustration.png" alt="Illustration">
-      </a>
-    </div>
-    <div>
-      <a id="branding" routerLink="/Gallery/branding" routerLinkActive="active">
-        <img src="../assets/branding.png" alt="Branding">
-      </a>
-    </div>
-    <div>
-      <a id="contact" routerLink="/Contact" routerLinkActive="active">
-        <img src="../assets/contact.png" alt="Contact">
-      </a>
-    </div>
-  </nav>
-  <div id="social">
-    <div id="instagram">
-      <a href="https://www.instagram.com/tsoooki/" target="_blank">
-      </a>
-    </div>
-    <div id="behance">
-      <a href="https://www.behance.net/tommynkae70a" target="_blank">
-      </a>
-    </div>
+  <div id="mobileHeader">
+    <input type="checkbox" />
+    <span></span>
+    <ul id="menu">
+      <a routerLink="/Gallery/illustration" routerLinkActive="active"><li>Illustration</li></a>
+      <a routerLink="/Gallery/branding" routerLinkActive="active"><li>Branding</li></a>
+      <a routerLink="/Contact" routerLinkActive="active"><li>Info</li></a>
+    </ul>
   </div>
 </header>
 <div id="header-ghost"></div>
