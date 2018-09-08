@@ -24,37 +24,34 @@ img {
   margin: 10px;
   width: 100%;
 }
-.demoGame span {
-  width: 120px;
-  height:150px;
+.demoGame a {
+  width: 374px;
+  height: 96px;
   display: inline-block;
-  background: url('/../../assets/portfolio/Branding/1 Popland/Playstation-play-button.png') no-repeat;
+  background: url('/../../assets/Play-Demo-Sprite.png') no-repeat;
 }
-.demoGame img {
-  vertical-align: top;
-  margin-left: 60px;
-}
-.demoGame a:hover span {
-  background-position: -120px 0;
+.demoGame a:hover {
+  background-position: 0 -96px;
 }
 .demoGame a:hover img, .demoGame a:hover span{
   /*filter: hue-rotate(-50deg) contrast(120%);*/
 }
 .backButton {
-  position: absolute;
+  position: fixed;
   left:35px;
 }
 .backButton a {
   display: inline-block;
-  width:150px;
-  height:31px;
-  background: url('../../assets/Back-Button.png') no-repeat;
+  width:87.1px;
+  height:18px;
+  background: url('../../assets/Back-Sprite.png') no-repeat;
+  background-size: auto 18px;
 }
 .backButton a:hover {
-  background-position: -150px;
+  background-position: -87.1px;
 }
-.backButton h2 {
+h2 {
   text-align: center;
-  font-size: 184%;
-  font-family: custom_prata, serif;
+  font-size: 18px;
+  font-family: custom_lato, serif;
 }

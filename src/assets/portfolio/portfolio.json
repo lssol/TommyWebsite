@@ -138,52 +138,36 @@
         "description": ""
       },
       {
-        "images": [
-          {
-            "link": "Branding/1 Popland/5.1.jpg",
-            "description": ""
-          },
-          {
-            "link": "Branding/1 Popland/5.2.jpg",
-            "description": ""
-          }
-        ]
+        "link": "Branding/1 Popland/5.1.jpg",
+        "description": ""
       },
       {
-        "images": [
-          {
-            "link": "Branding/1 Popland/6.1.jpg",
-            "description": ""
-          },
-          {
-            "link": "Branding/1 Popland/6.2.jpg",
-            "description": ""
-          }
-        ]
+        "link": "Branding/1 Popland/5.2.jpg",
+        "description": ""
       },
       {
-        "images": [
-          {
-            "link": "Branding/1 Popland/7.1.jpg",
-            "description": ""
-          },
-          {
-            "link": "Branding/1 Popland/7.2.jpg",
-            "description": ""
-          }
-        ]
+        "link": "Branding/1 Popland/6.1.jpg",
+        "description": ""
       },
       {
-        "images": [
-          {
-            "link": "Branding/1 Popland/8.1.jpg",
-            "description": ""
-          },
-          {
-            "link": "Branding/1 Popland/8.2.jpg",
-            "description": ""
-          }
-        ]
+        "link": "Branding/1 Popland/6.2.jpg",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/7.1.jpg",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/7.2.jpg",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/8.1.jpg",
+        "description": ""
+      },
+      {
+        "link": "Branding/1 Popland/8.2.jpg",
+        "description": ""
       }
     ]
   },
@@ -234,7 +218,8 @@
       },
       {
         "link": "Branding/3 Pondicherie/4 Pondi-Code-promotion.png",
-        "description": ""
+        "description": "",
+        "height": 400
       }
     ]
   },
