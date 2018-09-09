@@ -1,8 +1,8 @@
 #contact {
-  width: 900px;
+  max-width: 900px;
   margin: auto;
-  margin-top: 150px;
   display: flex;
+  margin-top: 80px;
 }
 #contact p {
   text-align: justify;
@@ -34,8 +34,16 @@ address a:hover span.envelop {
 address {
   margin-top: 50px;
 }
+address span.emailMobile {
+  border-bottom: #8e7574 1px solid;
+  padding-bottom:2px;
+}
+address span.emailMobile {
+  display: none;
+}
 #fox {
   margin-left: 70px;
+  padding-top: 50px;
 }
 #fox img {
   animation-name: foxSpace;
@@ -51,4 +59,18 @@ address {
   50% { transform: rotate(180deg) translateX(30px) rotate(-180deg); }
   75% { transform: rotate(270deg) translateX(30px) rotate(-270deg); }
   100% { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
+}
+@media screen and (max-width: 660px) {
+  #fox img {
+    height:200px;
+  }
+  #contact {
+    margin-top: 10px;
+  }
+  address span.emailMobile {
+    display: inline;
+  }
+  address span.envelop, address img {
+    display: none;
+  }
 }
