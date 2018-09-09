@@ -81,30 +81,30 @@ main {
   margin: auto;
   margin-top:35px;
 }
-#social {
+.social {
   display: flex;
   height:30px;
   width:120px;
   align-items: center;
   padding-right: 30px;
 }
-#social a {
+.social a {
   width: 28px;
   height: 28px;
   display: inline-block;
   background-size: 56px 28px;
   margin: 5px;
 }
-#social a:hover {
+.social a:hover {
   background-position: -28px 0;
 }
-#instagram a {
+.instagram a {
   background-image: url('../assets/Instagram-Sprite.png');
 }
-#behance a {
+.behance a {
   background-image: url('../assets/Behance-Sprite.png');
 }
-#share a {
+.share a {
   background-image: url('../assets/Share-Sprite.png');
 }
 
@@ -173,24 +173,54 @@ main {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
+#mobileMenu
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  z-index: 4;
+  background-color: #ffedea;
 
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+  transform: translate(0, -100%);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  font-family: custom_prata, serif;
+
+  transition: transform 0.3s ease;
 }
-
-#menu li
+#mobileMenu ul
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding:0;
 }
+#mobileMenu img {
+  width:60px;
+  margin-bottom:50px;
+}
+#mobileMenu li
+{
+  list-style-type: none;
+  padding-bottom: 20px;
+  font-size: 210%;
+  color: #F48D80;
+}
+#mobileMenu .social
+{
+  display:flex;
+  justify-content: center;
 
+  position: absolute;
+  bottom: 60px;
+
+  width:100%;
+  text-align: center;
+  padding-right: 0;
+}
 /*
  * And let's slide it in from the left
  */
@@ -198,7 +228,7 @@ main {
 {
   background-image: url('../assets/Close-menu.png');
 }
-#mobileHeader input:checked ~ ul
+#mobileHeader input:checked ~ #mobileMenu
 {
   transform: none;
 }

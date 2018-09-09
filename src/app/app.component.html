@@ -23,25 +23,40 @@
         </a>
       </div>
     </nav>
-    <div id="social">
-      <div id="instagram">
+    <div class="social">
+      <div class="instagram">
         <a href="https://www.instagram.com/tsoooki/" target="_blank">
         </a>
       </div>
-      <div id="behance">
+      <div class="behance">
         <a href="https://www.behance.net/tommynkae70a" target="_blank">
         </a>
       </div>
     </div>
   </div>
   <div id="mobileHeader">
-    <input type="checkbox" />
+    <input [ngModel]="menuActivated" (ngModelChange)="toggleScrolling($event)" type="checkbox" />
     <span></span>
-    <ul id="menu">
-      <a routerLink="/Gallery/illustration" routerLinkActive="active"><li>Illustration</li></a>
-      <a routerLink="/Gallery/branding" routerLinkActive="active"><li>Branding</li></a>
-      <a routerLink="/Contact" routerLinkActive="active"><li>Info</li></a>
-    </ul>
+    <div id="mobileMenu">
+      <div class="text-center">
+        <img src="assets/logo.png">
+      </div>
+      <ul>
+        <a routerLink="/Gallery/branding" routerLinkActive="active"><li>Branding</li></a>
+        <a routerLink="/Gallery/illustration" routerLinkActive="active"><li>Illustration</li></a>
+        <a routerLink="/Contact" routerLinkActive="active"><li>Contact</li></a>
+      </ul>
+      <div class="social">
+        <div class="instagram">
+          <a href="https://www.instagram.com/tsoooki/" target="_blank">
+          </a>
+        </div>
+        <div class="behance">
+          <a href="https://www.behance.net/tommynkae70a" target="_blank">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 <div id="header-ghost"></div>

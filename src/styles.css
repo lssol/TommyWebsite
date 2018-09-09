@@ -30,3 +30,7 @@ a:hover {
 ::selection {
   background: rgba(244, 141, 128, 0.4);
 }
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
