@@ -11,6 +11,9 @@ img {
   margin-top: 45px;
   margin-bottom: 45px;
 }
+.image img {
+  max-height:600px;
+}
 .images-line {
   display: flex;
   flex-wrap: wrap;

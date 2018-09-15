@@ -123,11 +123,13 @@
     "images": [
       {
         "link": "Branding/1 Popland/0 Popland Logo.png",
-        "description": ""
+        "description": "",
+        "height": 170
       },
       {
         "link": "Branding/1 Popland/1 Main Character.png",
-        "description": ""
+        "description": "",
+        "height": 450
       },
       {
         "link": "Branding/1 Popland/2 Characters.png",
@@ -135,7 +137,8 @@
       },
       {
         "link": "Branding/1 Popland/3 Junk Food Villains.png",
-        "description": ""
+        "description": "",
+        "height": 280
       },
       {
         "link": "Branding/1 Popland/4 Mockup.jpg",

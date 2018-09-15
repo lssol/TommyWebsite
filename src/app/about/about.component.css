@@ -1,45 +1,39 @@
 #contact {
-  max-width: 900px;
-  margin: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 80px;
 }
-#contact p {
-  text-align: justify;
-  width: 90%;
+p, h2 {
+  text-align: center;
+}
+p {
+  max-width: 570px;
+  letter-spacing: 1px;
+  line-height: 160%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 h2 {
   font-family: custom_prata, serif;
   font-size: 300%;
   color: #F48D80;
-  margin-bottom: 25px;
-}
-address img {
-  margin-right: 25px;
-  height: 90px;
-}
-span.envelop {
-  display: inline-block;
-  position: absolute;
-  margin-left:10px;
-  background-repeat: no-repeat;
-  background-position: 50% 35%;
-  background-image:url('../../assets/envelop.png');
-  width: 70px;
-  height:90px;
-}
-address a:hover span.envelop {
-  background-image:url('../../assets/envelop-hover.png');
+  margin-bottom: 45px;
 }
 address {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 address span.emailMobile {
-  border-bottom: #8e7574 1px solid;
+  border-bottom: #F48D80 3px solid;
   padding-bottom:2px;
+  letter-spacing: 1px;
 }
-address span.emailMobile {
-  display: none;
+address a {
+  transition: 0.5s ease;
+}
+address a:hover {
+  color: #F48D80;
+  transition: 0.5s ease;
 }
 #fox {
   margin-left: 70px;
@@ -66,11 +60,5 @@ address span.emailMobile {
   }
   #contact {
     margin-top: 10px;
-  }
-  address span.emailMobile {
-    display: inline;
-  }
-  address span.envelop, address img {
-    display: none;
   }
 }
