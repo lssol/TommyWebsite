@@ -38,6 +38,7 @@ address a:hover {
 #fox {
   margin-left: 70px;
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 #fox img {
   animation-name: foxSpace;

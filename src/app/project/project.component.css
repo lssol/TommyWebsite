@@ -10,6 +10,8 @@ img {
 .image {
   margin-top: 45px;
   margin-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .image img {
   max-height:600px;

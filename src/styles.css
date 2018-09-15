@@ -31,6 +31,6 @@ a:hover {
   background: rgba(244, 141, 128, 0.4);
 }
 .stop-scrolling {
-  height: 100%;
-  overflow: hidden;
+  /*height: 100%;*/
+  /*overflow: hidden;*/
 }

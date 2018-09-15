@@ -208,12 +208,12 @@
     "game": false,
     "category": "branding",
     "mainImage": {
-      "link": "Branding/3 Pondicherie/Linesheet Cover W shadow.png",
+      "link": "Branding/3 Pondicherie/3 Pondicherie.png",
       "description": "Pondichérie"
     },
     "images": [
       {
-        "link": "Branding/3 Pondicherie/Linesheet Cover W shadow.png",
+        "link": "Branding/3 Pondicherie/3 Pondicherie.png",
         "description": "",
         "height": 820
       },
@@ -263,10 +263,15 @@
     "game": false,
     "category": "branding",
     "mainImage": {
-      "link": "Branding/4 The Brave Collection.png",
+      "link": "Branding/4 The Brave Collection/Brave Hand.png",
       "description": "The Brave Collection"
     },
     "images": [
+      {
+        "link": "Branding/4 The Brave Collection/Brave Hand.png",
+        "description": "",
+        "height": 1150
+      },
       {
         "link": "Branding/4 The Brave Collection/1 Moonstone-Eblast.png",
         "description": "",

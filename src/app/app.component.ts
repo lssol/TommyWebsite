@@ -28,9 +28,9 @@ export class AppComponent {
   toggleScrolling(newValue): void {
     this.menuActivated = newValue;
     if (this.menuActivated) {
-      $('body').addClass('stop-scrolling');
+      $('body').bind('touchmove', function(e){e.preventDefault()})
     } else {
-      $('body').removeClass('stop-scrolling');
+      $('body').unbind('touchmove')
     }
   }
 }
