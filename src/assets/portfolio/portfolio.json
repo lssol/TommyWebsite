@@ -122,6 +122,10 @@
     },
     "images": [
       {
+        "link": "Branding/1 Popland/0 Popland Logo.png",
+        "description": ""
+      },
+      {
         "link": "Branding/1 Popland/1 Main Character.png",
         "description": ""
       },
@@ -274,13 +278,47 @@
         "description": ""
       },
       {
-        "link": "Branding/2 Zahava/5 Cards.png",
-        "description": ""
+        "images": [
+          {
+            "link": "Branding/2 Zahava/Card 1.png",
+            "description": "",
+            "height": 375
+          },
+          {
+            "link": "Branding/2 Zahava/Card 2.png",
+            "description": "",
+            "height": 375
+          },
+          {
+            "link": "Branding/2 Zahava/Card 3.png",
+            "description": "",
+            "height": 375
+          },
+          {
+            "link": "Branding/2 Zahava/Card 4.png",
+            "description": "",
+            "height": 375
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/2 Zahava/Brochure-Mockup-1.png",
+            "description": "",
+            "height": 750
+          },
+          {
+            "link": "Branding/2 Zahava/Brochure-Mockup-2.png",
+            "description": "",
+            "height": 750
+          }
+        ]
       },
       {
         "link": "Branding/2 Zahava/6 Homepage web Design.png",
         "description": "",
-        "height": 1200
+        "height": 1500
       },
       {
         "images": [
@@ -303,10 +341,23 @@
       },
       {
         "link": "Branding/2 Zahava/8 Launch Event Invitation.png",
-        "description": ""
+        "description": "",
+        "height": 800
       },
       {
-        "link": "Branding/2 Zahava/9 napkin-design.png",
+        "images": [
+          {
+            "link": "Branding/2 Zahava/napkins-design-1.png",
+            "description": ""
+          },
+          {
+            "link": "Branding/2 Zahava/napkins-design-2.png",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "link": "Branding/2 Zahava/Pendants-earring.png",
         "description": ""
       },
       {

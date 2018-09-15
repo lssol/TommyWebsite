@@ -8,7 +8,6 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavReduceOnScrollDirective } from './nav-reduce-on-scroll.directive';
 import { ProjectComponent } from './project/project.component';
 import {GameGuard} from './game-guard.service';
 import {GameInstance} from './game.instance';
@@ -17,8 +16,6 @@ import {GameInstance} from './game.instance';
   declarations: [
     AppComponent,
     GalleryComponent,
-    AboutComponent,
-    NavReduceOnScrollDirective,
     AboutComponent,
     ProjectComponent
   ],

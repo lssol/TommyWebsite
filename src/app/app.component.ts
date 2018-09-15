@@ -1,6 +1,6 @@
 import {Component, HostListener, Input, OnChanges, SimpleChanges} from '@angular/core';
 import { fadeAnimation } from './app.animation';
-import * from "jquery"
+import * as $ from "jquery";
 import {Router} from '@angular/router';
 
 @Component({

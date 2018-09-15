@@ -1,27 +1,30 @@
 <div id="project" *ngIf="project">
-  <div class="backButton">
+  <div [class.reducedBack]="reduceHeader" class="backButton">
     <a routerLink="/Gallery/{{ project.category }}" title="Back to Project List"></a>
   </div>
   <h2>
     {{ project.description }}
   </h2>
-  <div *ngFor="let image of this.project.images" class="image">
+  <div *ngFor="let image of this.project.images">
     <div class="images-line" *ngIf="image.images">
-      <div *ngFor="let subImg of image.images">
+      <div class="image" *ngFor="let subImg of image.images">
         <img
           [style.width.px]="subImg.width ? subImg.width : 'auto'"
-          [style.height.px]="subImg.height ? subImg.height : 'auto'"
           [style.maxHeight.px]="subImg.height ? subImg.height : 'auto'"
           src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}"/>
       </div>
     </div>
-    <img
-      [style.width.px]="image.width ? image.width : 'auto'"
-      [style.height.px]="image.height ? image.height : 'auto'"
-      [style.maxHeight.px]="image.height ? image.height : 'auto'"
-      *ngIf="!image.images" src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+    <div class="image" *ngIf="!image.images">
+      <img
+        [style.width.px]="image.width ? image.width : 'auto'"
+        [style.maxHeight.px]="image.height ? image.height : 'auto'"
+         src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+    </div>
   </div>
   <div *ngIf="project.game" class="demoGame image">
     <a href="assets/portfolio/Branding/popland/index.html" target="_blank"></a>
   </div>
 </div>
+
+<!--[style.height.px]="subImg.height ? subImg.height : 'auto'"-->
+<!--[style.height.px]="image.height ? image.height : 'auto'"-->

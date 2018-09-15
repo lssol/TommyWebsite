@@ -37,7 +37,7 @@
   transition: 1s ease;
 }
 .reducedHeader {
-  height:80px;
+  height: 80px !important;
   transition: 1s ease;
 }
 .reducedLogo {

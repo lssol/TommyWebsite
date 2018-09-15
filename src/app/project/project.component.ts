@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {filter, switchMap} from 'rxjs/operators';
 import {Project} from '../gallery.model';
@@ -12,7 +12,10 @@ import {GalleryService} from '../gallery.service';
 export class ProjectComponent implements OnInit {
   project: Project;
   selectedProject: string = undefined;
-
+  reduceHeader: boolean;
+  @HostListener('window:scroll') onScroll() {
+    this.reduceHeader = window.scrollY > 0;
+  }
   constructor(
     private galleryService: GalleryService,
     private route: ActivatedRoute,
