@@ -21,14 +21,11 @@
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
-    "aos": "^2.3.3",
     "core-js": "^2.5.5",
     "jquery": "^3.3.1",
     "npm": "^6.3.0",
-    "parallax-js": "^3.1.0",
+    "rellax": "^1.7.0",
     "rxjs": "^6.0.0",
-    "scroll-js": "^1.9.1",
-    "scrollreveal": "^4.0.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
