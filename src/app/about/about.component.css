@@ -11,8 +11,8 @@ p {
   max-width: 570px;
   letter-spacing: 1px;
   line-height: 160%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 h2 {
   font-family: custom_prata, serif;
@@ -61,5 +61,16 @@ address a:hover {
   }
   #contact {
     margin-top: 10px;
+  }
+  h2 {
+    font-size: 200%;
+    line-height: 50px;
+  }
+  p {
+    font-size: 90%;
+  }
+  h2, p {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }

@@ -61,6 +61,6 @@ h2 {
 }
 @media screen and (max-width: 660px){
   .backButton {
-    margin-top: -50px;
+    display: none;
   }
 }
