@@ -1,12 +1,12 @@
 [
   {
     "id": "my-adulthood",
-    "name": "My Adulthood",
-    "description": "My Adulthood",
+    "name": "Adulthood",
+    "description": "Adulthood",
     "category": "illustration",
     "mainImage": {
       "link": "Illustration/1 Childish Realism.png",
-      "description": "My Adulthood",
+      "description": "Adulthood",
       "isBig": true
     },
     "images": [

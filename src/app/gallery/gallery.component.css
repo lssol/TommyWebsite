@@ -1,8 +1,13 @@
 img {
   width:100%;
-  opacity: 1;
-  transition: 0.8s ease;
+  animation: fadein 5s;
 }
+@keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+
 div.image p {
   margin-top:10px;
   font-family: custom_prata, serif;
@@ -10,6 +15,42 @@ div.image p {
 div.image:hover p {
   color: #F48D80;
 }
+
+
+/* Mobile Menu*/
+#mobilePresentation {
+  margin-top: -80px;
+  margin-left:-15px;
+  margin-right: -15px;
+  height: 100vh;
+  background-color: #fff6f4;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+#mobilePresentation div.logo, #mobilePresentation div.arrowDown {
+  width: 100%;
+  text-align: center;
+}
+#mobilePresentation div.arrowDown {
+  position: absolute;
+  bottom: 60px;
+}
+#mobilePresentation div.logo img {
+  max-width: 200px;
+}
+#mobilePresentation div.arrowDown img {
+  max-width: 30px;
+}
+
+@media screen and (min-width: 660px) {
+  #mobilePresentation {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 660px) {
   div.image p {
     display: none;
@@ -17,4 +58,11 @@ div.image:hover p {
   div.image {
     margin-bottom:15px;
   }
+  #mobileMenu {
+    display: block;
+  }
+}
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }

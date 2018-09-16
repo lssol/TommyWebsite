@@ -1,4 +1,4 @@
-import {Component, HostListener, Input, OnChanges, SimpleChanges} from '@angular/core';
+import {Component, HostListener, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import { fadeAnimation } from './app.animation';
 import * as $ from "jquery";
 import {Router} from '@angular/router';
@@ -9,7 +9,7 @@ import {Router} from '@angular/router';
   styleUrls: ['./app.component.css'],
   animations: [ fadeAnimation ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   router: Router;
   reduceHeader = false;
   @Input() menuActivated: boolean;
@@ -25,6 +25,14 @@ export class AppComponent {
     this.router.events.subscribe((val) => this.toggleScrolling(false))
   }
 
+  ngOnInit(): void {
+    $(window).on('load', function() {
+      setTimeout(function() {
+        $('#loading').fadeOut(1000);
+      }, 800);
+    });
+  }
+
   toggleScrolling(newValue): void {
     this.menuActivated = newValue;
     if (this.menuActivated) {
@@ -33,5 +41,6 @@ export class AppComponent {
       $('body').unbind('touchmove')
     }
   }
+
 }
 

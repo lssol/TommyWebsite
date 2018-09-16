@@ -9,8 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectComponent } from './project/project.component';
-import {GameGuard} from './game-guard.service';
-import {GameInstance} from './game.instance';
 
 @NgModule({
   declarations: [
@@ -27,7 +25,6 @@ import {GameInstance} from './game.instance';
     CommonModule,
     HttpClientModule
   ],
-  providers: [GameGuard, GameInstance],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

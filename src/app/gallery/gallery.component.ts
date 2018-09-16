@@ -1,5 +1,5 @@
 import { GalleryService } from '../gallery.service';
-import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import {AfterViewInit, Component, Input, OnChanges, OnInit} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import { Location } from '@angular/common';
 import {Image, Project} from '../gallery.model';
@@ -13,7 +13,7 @@ import {Observable, ObservableInput, Subscription} from 'rxjs';
   styleUrls: ['./gallery.component.css']
 })
 
-export class GalleryComponent implements OnInit {
+export class GalleryComponent implements OnInit, AfterViewInit {
   selectedGallery: string = undefined;
   projects: Project[];
 
@@ -31,5 +31,8 @@ export class GalleryComponent implements OnInit {
       filter(e => e instanceof NavigationEnd),
       switchMap(() => this.galleryService.getProjects(this.selectedGallery))
     ).subscribe(p => this.projects = p);
+  }
+
+  ngAfterViewInit(): void {
   }
 }
