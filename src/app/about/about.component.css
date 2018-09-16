@@ -10,13 +10,14 @@ p, h2 {
 p {
   max-width: 570px;
   letter-spacing: 1px;
+  font-size: 90%;
   line-height: 160%;
   padding-left: 25px;
   padding-right: 25px;
 }
 h2 {
   font-family: custom_prata, serif;
-  font-size: 300%;
+  font-size: 250%;
   color: #F48D80;
   margin-bottom: 45px;
 }
