@@ -15,7 +15,15 @@ div.image p {
 div.image:hover p {
   color: #F48D80;
 }
-
+div.image img {
+  /*transition: 1s ease;*/
+}
+div.image div {
+  /*overflow: hidden;*/
+}
+div.image:hover img {
+  /*transform: scale(1.1);*/
+}
 
 #parallax-container {
   margin-top: -80px;
