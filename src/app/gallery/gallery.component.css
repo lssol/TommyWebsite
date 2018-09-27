@@ -45,7 +45,7 @@ div.image:hover img {
 }
 #parallax-container .arrow {
   position:absolute;
-  bottom: 3%;
+  bottom: 10vh;
   width:100%;
   text-align: center;
 }

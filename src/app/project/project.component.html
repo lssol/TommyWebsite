@@ -2,6 +2,9 @@
   <div [class.reducedBack]="reduceHeader" class="backButton">
     <a routerLink="/Gallery/{{ project.category }}" title="Back to Project List"></a>
   </div>
+  <div [class.reducedBack]="reduceHeader" *ngIf="project.game" class="demoGame">
+    <a title="Play a Demo" href="assets/portfolio/Branding/popland/index.html" target="_blank"></a>
+  </div>
   <h2>
     {{ project.description }}
   </h2>
@@ -20,9 +23,6 @@
         [style.maxHeight.px]="image.height ? image.height : 'auto'"
          src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
     </div>
-  </div>
-  <div *ngIf="project.game" class="demoGame image">
-    <a href="assets/portfolio/Branding/popland/index.html" target="_blank"></a>
   </div>
 </div>
 

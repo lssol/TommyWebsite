@@ -247,3 +247,8 @@ main {
 #loading img {
   width:200px;
 }
+@media screen and (max-width: 660px) {
+  #loading {
+    display: none;
+  }
+}
