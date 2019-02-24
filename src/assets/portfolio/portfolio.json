@@ -185,17 +185,12 @@
     "game": false,
     "category": "branding",
     "mainImage": {
-      "link": "Branding/5 Events Invitations.png",
+      "link": "Branding/5 Events Invitations/wedding-invitation.png",
       "description": "Invitations"
     },
     "images": [
       {
-        "link": "Branding/5 Events Invitations/1 Wedding-Invitation.png",
-        "description": "",
-        "height": 650
-      },
-      {
-        "link": "Branding/5 Events Invitations/2 Bar-Mitzvah-Invitation.png",
+        "link": "Branding/5 Events Invitations/mockup.png",
         "description": "",
         "height": 650
       }
@@ -319,12 +314,9 @@
         "description": ""
       },
       {
-        "link": "Branding/2 Zahava/2 Zahava-Booklet.png",
-        "description": ""
-      },
-      {
         "link": "Branding/2 Zahava/3 Zahava-Booklet.png",
-        "description": ""
+        "description": "",
+        "width": 670
       },
       {
         "images": [
@@ -365,10 +357,18 @@
         ]
       },
       { "link": "Branding/2 Zahava/business-cards.png" },
+      { "link": "Branding/2 Zahava/website.png" },
       {
-        "link": "Branding/2 Zahava/6 Homepage web Design.png",
-        "description": "",
-        "height": 1500
+        "images": [
+          {
+            "link": "Branding/2 Zahava/phone1.png",
+            "height": 600
+          },
+          {
+            "link": "Branding/2 Zahava/phone2.png",
+            "height": 600
+          }
+        ]
       },
       {
         "images": [
