@@ -37,24 +37,29 @@
     ]
   },
   {
-    "id": "cut-out",
-    "name": "Cut Out",
-    "description": "Cut Out",
+    "id": "mixed-media",
+    "name": "Mixed Media",
+    "description": "Mixed Media",
     "category": "illustration",
     "mainImage":
       {
-        "link": "Illustration/2 Cut out.jpg",
-        "description": "Cut Out"
+        "link": "Illustration/Mixed-Media/seal.jpg",
+        "description": "Mixed-Media"
       },
     "images": [
       {
-        "link": "Illustration/2 Cut out/1 Birthday.jpg",
-        "description": "Birthday",
+        "link": "Illustration/Mixed-Media/seal.jpg",
+        "description": "Seal",
         "height": 420
       },
       {
-        "link": "Illustration/2 Cut out/2 Baking.jpg",
-        "description": "Baking",
+        "link": "Illustration/Mixed-Media/dogs.jpg",
+        "description": "Dogs",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/strawberry-cat.jpg",
+        "description": "Strawberry Cat",
         "height": 420
       }
     ]
