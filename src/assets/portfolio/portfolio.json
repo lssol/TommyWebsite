@@ -364,6 +364,7 @@
           }
         ]
       },
+      { "link": "Branding/2 Zahava/business-cards.png" },
       {
         "link": "Branding/2 Zahava/6 Homepage web Design.png",
         "description": "",
@@ -393,26 +394,31 @@
         "description": "",
         "height": 800
       },
+      { "link": "Branding/2 Zahava/Pendants-earring.png" },
+      { "link": "Branding/2 Zahava/Matchbox2.png" },
       {
-        "images": [
-          {
-            "link": "Branding/2 Zahava/napkins-design-1.png",
-            "description": ""
-          },
-          {
-            "link": "Branding/2 Zahava/napkins-design-2.png",
-            "description": ""
-          }
-        ]
+        "link": "Branding/2 Zahava/P1-matches.jpg",
+        "description": "",
+        "width": 795
       },
       {
-        "link": "Branding/2 Zahava/Pendants-earring.png",
+        "link": "Branding/2 Zahava/labels.jpg",
+        "description": "",
+        "width": 795
+      },
+      {
+        "link": "Branding/2 Zahava/P3-book.jpg",
         "description": ""
       },
       {
-        "link": "Branding/2 Zahava/10 Sketches.png",
+        "link": "Branding/2 Zahava/earings.jpg",
         "description": "",
-        "height": 500
+        "width": 795
+      },
+      {
+        "link": "Branding/2 Zahava/P5-brochure.jpg",
+        "description": "",
+        "width": 795
       }
     ]
 
