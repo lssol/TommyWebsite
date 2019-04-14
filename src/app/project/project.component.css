@@ -1,7 +1,10 @@
-#project {
+.one-column {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.card {
+  border: none;
 }
 img {
   max-width:100%;

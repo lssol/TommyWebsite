@@ -1,4 +1,4 @@
-<div id="project" *ngIf="project">
+<div id="project" class="one-column" *ngIf="project">
   <div [class.reducedBack]="reduceHeader" class="backButton">
     <a routerLink="/Gallery/{{ project.category }}" title="Back to Project List"></a>
   </div>
@@ -8,23 +8,26 @@
   <h2>
     {{ project.description }}
   </h2>
-  <div *ngFor="let image of this.project.images">
-    <div class="images-line" *ngIf="image.images">
-      <div class="image" *ngFor="let subImg of image.images">
-        <img
-          [style.width.px]="subImg.width ? subImg.width : 'auto'"
-          [style.maxHeight.px]="subImg.height ? subImg.height : 'auto'"
-          src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}"/>
+  <div class='container' [class.card-columns]="project.masonry||false" [class.one-column]="!(project.masonry||false)">
+    <div *ngFor="let image of this.project.images" [class.card]="project.masonry||false">
+      <div class="images-line" *ngIf="image.images">
+        <div class="image" *ngFor="let subImg of image.images">
+          <img
+            [style.width.px]="subImg.width ? subImg.width : 'auto'"
+            [style.maxHeight.px]="subImg.height ? subImg.height : 'auto'"
+            src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}"/>
+        </div>
       </div>
-    </div>
-    <div class="image" *ngIf="!image.images">
-      <img
-        [style.width.px]="image.width ? image.width : 'auto'"
-        [style.maxHeight.px]="image.height ? image.height : 'auto'"
-         src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+      <div class="image" *ngIf="!image.images">
+        <img
+          [style.width.px]="image.width ? image.width : 'auto'"
+          [style.maxHeight.px]="image.height ? image.height : 'auto'"
+          src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+      </div>
     </div>
   </div>
 </div>
+
 
 <!--[style.height.px]="subImg.height ? subImg.height : 'auto'"-->
 <!--[style.height.px]="image.height ? image.height : 'auto'"-->

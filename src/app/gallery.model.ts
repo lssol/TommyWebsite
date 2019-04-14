@@ -16,5 +16,6 @@ export class Project {
     category: string;
     mainImage: Image;
     images: Image[];
+    masonry: boolean;
 }
 
