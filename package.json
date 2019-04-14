@@ -26,6 +26,7 @@
     "npm": "^6.3.0",
     "rellax": "^1.7.0",
     "rxjs": "^6.0.0",
+    "vue-router-sitemap": "0.0.4",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

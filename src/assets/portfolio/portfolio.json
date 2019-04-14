@@ -37,30 +37,19 @@
     ]
   },
   {
-    "id": "mixed-media",
-    "name": "Mixed Media",
-    "description": "Mixed Media",
+    "id": "acrylic-painting",
+    "name": "Acrylic Painting",
+    "description": "Acrylic Painting",
     "category": "illustration",
     "mainImage":
-      {
-        "link": "Illustration/Mixed-Media/seal.jpg",
-        "description": "Mixed-Media"
-      },
+    {
+      "link": "Illustration/5 Acrylic Painting.png",
+      "description": "Acrylic Painting"
+    },
     "images": [
       {
-        "link": "Illustration/Mixed-Media/seal.jpg",
-        "description": "Seal",
-        "height": 420
-      },
-      {
-        "link": "Illustration/Mixed-Media/dogs.jpg",
-        "description": "Dogs",
-        "height": 420
-      },
-      {
-        "link": "Illustration/Mixed-Media/strawberry-cat.jpg",
-        "description": "Strawberry Cat",
-        "height": 420
+        "link": "Illustration/5 Acrylic Painting.png",
+        "description": "Acrylic Painting"
       }
     ]
   },
@@ -98,19 +87,105 @@
     ]
   },
   {
-    "id": "acrylic-painting",
-    "name": "Acrylic Painting",
-    "description": "Acrylic Painting",
+    "id": "mixed-media",
+    "name": "Mixed Media",
+    "description": "Mixed Media",
     "category": "illustration",
     "mainImage":
-      {
-        "link": "Illustration/5 Acrylic Painting.png",
-        "description": "Acrylic Painting"
-      },
+    {
+      "link": "Illustration/Mixed-Media/koala.jpg",
+      "description": "Mixed-Media"
+    },
     "images": [
       {
-        "link": "Illustration/5 Acrylic Painting.png",
-        "description": "Acrylic Painting"
+        "link": "Illustration/Mixed-Media/koala.jpg",
+        "description": "Koala",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/toucan.jpg",
+        "description": "Toucan",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/unicorn.jpg",
+        "description": "Unicorn",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/dog.jpg",
+        "description": "Dog",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/wolf.jpg",
+        "description": "Wolf",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/seal.jpg",
+        "description": "Seal",
+        "height": 420
+      },
+      {
+        "link": "Illustration/Mixed-Media/space.jpg",
+        "description": "Space",
+        "height": 420
+      }
+    ]
+  },
+  {
+    "id": "pondicherie",
+    "name": "Pondichérie",
+    "description": "Pondichérie",
+    "game": false,
+    "category": "branding",
+    "mainImage": {
+      "link": "Branding/3 Pondicherie/cover_pondicherie.png",
+      "description": "Pondichérie"
+    },
+    "images": [
+      {
+        "link": "Branding/3 Pondicherie/3 Pondicherie.png",
+        "description": "",
+        "height": 820
+      },
+      {
+        "link": "Branding/3 Pondicherie/1 Pondi Invitation.png",
+        "description": "",
+        "height": 900
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/3 Pondicherie/Square-Flyer 1.png",
+            "description": "",
+            "height": 400
+          },
+          {
+            "link": "Branding/3 Pondicherie/Square-Flyer 2.png",
+            "description": "",
+            "height": 400
+          }
+        ]
+      },
+      {
+        "link": "Branding/3 Pondicherie/3 code promotion flyer.png",
+        "description": ""
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/3 Pondicherie/Code-promotion 1.png",
+            "description": "",
+            "height": 400
+          },
+          {
+            "link": "Branding/3 Pondicherie/Code-promotion 2.png",
+            "description": "",
+            "height": 400
+          }
+        ]
       }
     ]
   },
@@ -121,7 +196,7 @@
     "game": true,
     "category": "branding",
     "mainImage": {
-      "link": "Branding/1 Popland.png",
+      "link": "Branding/1 Popland/popland_cover.png",
       "description": "Popland",
       "isBig": true
     },
@@ -184,6 +259,51 @@
     ]
   },
   {
+    "id": "brave-collection",
+    "name": "The Brave Collection",
+    "description": "The Brave Collection",
+    "game": false,
+    "category": "branding",
+    "mainImage": {
+      "link": "Branding/4 The Brave Collection/brave_cover.png",
+      "description": "The Brave Collection"
+    },
+    "images": [
+      {
+        "link": "Branding/4 The Brave Collection/brave_cover.png",
+        "description": "",
+        "height": 500
+      },
+      {
+        "images": [
+          {
+            "link": "Branding/4 The Brave Collection/iphone_1.png",
+            "description": ""
+          },
+          {
+            "link": "Branding/4 The Brave Collection/iphone_2.png",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "link": "Branding/4 The Brave Collection/1 Moonstone-Eblast.png",
+        "description": "",
+        "height": 1150
+      },
+      {
+        "link": "Branding/4 The Brave Collection/Bracelet-Sketch.png",
+        "description": "",
+        "height": 180
+      },
+      {
+        "link": "Branding/4 The Brave Collection/Necklace-Sketch.png",
+        "description": "",
+        "height": 290
+      }
+    ]
+  },
+  {
     "id": "events-invitations",
     "name": "Invitations",
     "description": "Invitations",
@@ -198,108 +318,6 @@
         "link": "Branding/5 Events Invitations/mockup.png",
         "description": "",
         "height": 650
-      }
-    ]
-  },
-  {
-    "id": "pondicherie",
-    "name": "Pondichérie",
-    "description": "Pondichérie",
-    "game": false,
-    "category": "branding",
-    "mainImage": {
-      "link": "Branding/3 Pondicherie/3 Pondicherie.png",
-      "description": "Pondichérie"
-    },
-    "images": [
-      {
-        "link": "Branding/3 Pondicherie/3 Pondicherie.png",
-        "description": "",
-        "height": 820
-      },
-      {
-        "link": "Branding/3 Pondicherie/1 Pondi Invitation.png",
-        "description": "",
-        "height": 900
-      },
-      {
-        "images": [
-          {
-            "link": "Branding/3 Pondicherie/Square-Flyer 1.png",
-            "description": "",
-            "height": 400
-          },
-          {
-            "link": "Branding/3 Pondicherie/Square-Flyer 2.png",
-            "description": "",
-            "height": 400
-          }
-        ]
-      },
-      {
-        "link": "Branding/3 Pondicherie/3 code promotion flyer.png",
-        "description": ""
-      },
-      {
-        "images": [
-          {
-            "link": "Branding/3 Pondicherie/Code-promotion 1.png",
-            "description": "",
-            "height": 400
-          },
-          {
-            "link": "Branding/3 Pondicherie/Code-promotion 2.png",
-            "description": "",
-            "height": 400
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brave-collection",
-    "name": "The Brave Collection",
-    "description": "The Brave Collection",
-    "game": false,
-    "category": "branding",
-    "mainImage": {
-      "link": "Branding/4 The Brave Collection/Brave Hand.png",
-      "description": "The Brave Collection"
-    },
-    "images": [
-      {
-        "link": "Branding/4 The Brave Collection/Brave Hand.png",
-        "description": "",
-        "height": 1150
-      },
-      {
-        "link": "Branding/4 The Brave Collection/1 Moonstone-Eblast.png",
-        "description": "",
-        "height": 1150
-      },
-      {
-        "images": [
-          {
-            "link": "Branding/4 The Brave Collection/Bracelet-Sketch.png",
-            "description": "",
-            "height": 180
-          },
-          {
-            "link": "Branding/4 The Brave Collection/Necklace-Sketch.png",
-            "description": "",
-            "height": 290
-          }
-        ]
-      },
-      {
-        "link": "Branding/4 The Brave Collection/2 Reader digest post.png",
-        "description": "",
-        "height": 550
-      },
-      {
-        "link": "Branding/4 The Brave Collection/3 eblast-pendant.png",
-        "description": "",
-        "height": 1900
       }
     ]
   },
@@ -424,6 +442,28 @@
       }
     ]
 
+  },
+  {
+    "id": "tulerie",
+    "name": "Tulerie",
+    "description": "Tulerie",
+    "game": false,
+    "category": "branding",
+    "mainImage": {
+      "link": "Branding/Tulerie/tulerie_cover.png",
+      "description": "The Brave Collection"
+    },
+    "images": [
+      {"link": "Branding/Tulerie/tulerie_computer.png"},
+      {
+        "images": [
+          {"link": "Branding/Tulerie/iphone_1.png"},
+          {"link": "Branding/Tulerie/iphone_2.png"},
+          {"link": "Branding/Tulerie/iphone_3.png"}
+        ]
+      },
+      {"link": "Branding/Tulerie/tulerie_website.png"}
+    ]
   }
 ]
 
