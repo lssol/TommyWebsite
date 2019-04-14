@@ -37,56 +37,6 @@
     ]
   },
   {
-    "id": "acrylic-painting",
-    "name": "Acrylic Painting",
-    "description": "Acrylic Painting",
-    "category": "illustration",
-    "mainImage":
-    {
-      "link": "Illustration/5 Acrylic Painting.png",
-      "description": "Acrylic Painting"
-    },
-    "images": [
-      {
-        "link": "Illustration/5 Acrylic Painting.png",
-        "description": "Acrylic Painting"
-      }
-    ]
-  },
-  {
-    "id": "colored-pencil",
-    "name": "Colored Pencil",
-    "description": "Colored Pencil",
-    "category": "illustration",
-    "mainImage":
-    {
-      "link": "Illustration/3 Colored Pencils.png",
-      "description": "Colored Pencils"
-    },
-    "images": [
-      {
-        "link": "Illustration/3 Colored Pencils.png",
-        "description": "Colored Pencils"
-      }
-    ]
-  },
-  {
-    "id": "collage",
-    "name": "Collage",
-    "description": "Collage",
-    "category": "illustration",
-    "mainImage": {
-      "link": "Illustration/6 Collage.png",
-      "description": "Collage"
-    },
-    "images": [
-      {
-        "link": "Illustration/6 Collage.png",
-        "description": "Collage"
-      }
-    ]
-  },
-  {
     "id": "mixed-media",
     "name": "Mixed Media",
     "description": "Mixed Media",
@@ -131,6 +81,56 @@
         "link": "Illustration/Mixed-Media/space.jpg",
         "description": "Space",
         "height": 420
+      }
+    ]
+  },
+  {
+    "id": "colored-pencil",
+    "name": "Colored Pencil",
+    "description": "Colored Pencil",
+    "category": "illustration",
+    "mainImage":
+    {
+      "link": "Illustration/3 Colored Pencils.png",
+      "description": "Colored Pencils"
+    },
+    "images": [
+      {
+        "link": "Illustration/3 Colored Pencils.png",
+        "description": "Colored Pencils"
+      }
+    ]
+  },
+  {
+    "id": "collage",
+    "name": "Collage",
+    "description": "Collage",
+    "category": "illustration",
+    "mainImage": {
+      "link": "Illustration/6 Collage.png",
+      "description": "Collage"
+    },
+    "images": [
+      {
+        "link": "Illustration/6 Collage.png",
+        "description": "Collage"
+      }
+    ]
+  },
+  {
+    "id": "acrylic-painting",
+    "name": "Acrylic Painting",
+    "description": "Acrylic Painting",
+    "category": "illustration",
+    "mainImage":
+    {
+      "link": "Illustration/5 Acrylic Painting.png",
+      "description": "Acrylic Painting"
+    },
+    "images": [
+      {
+        "link": "Illustration/5 Acrylic Painting.png",
+        "description": "Acrylic Painting"
       }
     ]
   },

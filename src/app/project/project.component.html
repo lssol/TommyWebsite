@@ -8,8 +8,8 @@
   <h2>
     {{ project.description }}
   </h2>
-  <div class='container' [class.card-columns]="project.masonry||false" [class.one-column]="!(project.masonry||false)">
-    <div *ngFor="let image of this.project.images" [class.card]="project.masonry||false">
+  <div class='container one-column'>
+    <div *ngFor="let image of this.project.images">
       <div class="images-line" *ngIf="image.images">
         <div class="image" *ngFor="let subImg of image.images">
           <img

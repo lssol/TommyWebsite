@@ -9,10 +9,19 @@
       <img src="assets/logoTsooki.png"/>
     </div>
   </div>
-  <div class="card-columns">
+  <div *ngIf="selectedGallery != 'illustration'" class="card-columns">
     <div *ngFor="let project of projects" class="image card">
       <a routerLink="/Project/{{ project.id }}">
         <div><img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}"></div>
+        <p>{{ project.name }}</p>
+      </a>
+    </div>
+  </div>
+
+  <div *ngIf="selectedGallery == 'illustration'" class="row">
+    <div *ngFor="let project of projects" class="image {{ project.mainImage.isBig ? 'col-md-8' : 'col-md-4' }}">
+      <a routerLink="/Project/{{ project.id }}">
+        <div [class.negative-margin]="project.id == 'acrylic-painting'"><img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}"></div>
         <p>{{ project.name }}</p>
       </a>
     </div>
