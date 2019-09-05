@@ -65,18 +65,17 @@ div.image:hover img {
   width: 150px;
 }
 
+.negative-margin {
+  margin-top: -120px;
+}
+
 @media screen and (min-width: 660px) {
   #parallax-container {
     display: none;
   }
-  .negative-margin {
-    margin-top: 0;
-  }
+
 }
 
-.negative-margin {
-  margin-top: -120px;
-}
 @media screen and (max-width: 660px) {
   div.image p {
     display: none;
@@ -87,7 +86,9 @@ div.image:hover img {
   #mobileMenu {
     display: block;
   }
-
+  .negative-margin {
+    margin-top: 0;
+  }
 }
 .parallax-window {
   min-height: 400px;
