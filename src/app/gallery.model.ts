@@ -16,5 +16,7 @@ export class Project {
     category: string;
     mainImage: Image;
     images: Image[];
+    overlayBackgroundColor: string;
+    overlayTextColor: string;
 }
 

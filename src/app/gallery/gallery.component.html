@@ -12,8 +12,16 @@
   <div class="row">
     <div *ngFor="let project of projects" class="image {{ project.mainImage.isBig ? 'col-md-8' : 'col-md-4' }}">
       <a routerLink="/Project/{{ project.id }}">
-        <div><img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}"></div>
-        <p>{{ project.name }}</p>
+        <div class="imageContainer">
+          <img src='assets/portfolio/{{ project.mainImage.link }}' alt="{{ project.mainImage.description }}">
+          <div class="overlay" >
+            <div class="overlayBg" [style.background-color] = "'#' + project.overlayBackgroundColor"></div>
+            <div class="overlayText" [style.color] = "'#' + project.overlayTextColor">
+              <h2>{{ project.name }}</h2>
+              <p>{{ project.description }}</p>
+            </div>
+          </div>
+        </div>
       </a>
     </div>
   </div>

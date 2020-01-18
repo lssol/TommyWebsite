@@ -7,14 +7,14 @@ img {
   to {opacity: 1}
 }
 
-
+div.image h2 {
+  font-family: custom_prata, serif;
+}
 div.image p {
   margin-top:10px;
   font-family: custom_prata, serif;
 }
-div.image:hover p {
-  color: #F48D80;
-}
+
 div.image img {
   /*transition: 1s ease;*/
 }
@@ -88,4 +88,39 @@ div.image:hover img {
 .image {
   padding-left: 21px;
   padding-right: 21px;
+}
+.imageContainer {
+  position:relative;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  visibility:hidden;
+}
+.image:hover .overlay {
+  visibility: visible;
+}
+.overlayBg {
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+.overlayText {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  padding-left: 30px;
+  padding-top: 30px;
+  z-index: 10;
+}
+.image {
+  margin-bottom: 40px;
 }

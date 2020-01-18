@@ -117,13 +117,13 @@
 
 
 
-
-
   {
     "id": "zahava",
     "name": "Zahava",
     "description": "Zahava is the best",
     "category": "branding",
+    "overlayBackgroundColor": "cf8c84",
+    "overlayTextColor": "ffffff",
     "mainImage":
     {
       "link": "Branding/2 Zahava/01 Cover Zahava.jpg",
@@ -177,6 +177,8 @@
     "name": "Invitations",
     "description": "Invitations are fun",
     "category": "branding",
+    "overlayBackgroundColor": "fefaee ",
+    "overlayTextColor": "815c58)",
     "mainImage": {
       "link": "Branding/5 Events Invitations/Events.jpg"
     },
@@ -192,6 +194,8 @@
     "description": "Popland",
     "game": true,
     "category": "branding",
+    "overlayBackgroundColor": "f2f2f2",
+    "overlayTextColor": "815c58",
     "mainImage": {
       "link": "Branding/1 Popland/Popland.jpg",
       "description": "Popland"
@@ -229,6 +233,8 @@
     "description": "Pondichérie",
     "game": false,
     "category": "branding",
+    "overlayBackgroundColor": "a2a394",
+    "overlayTextColor": "ffffff",
     "mainImage": {
       "link": "Branding/3 Pondicherie/Pondicherie.jpg",
       "description": "Pondichérie"
@@ -262,6 +268,8 @@
     "description": "Tulerie",
     "game": false,
     "category": "branding",
+    "overlayBackgroundColor": "f1eae4",
+    "overlayTextColor": "815c58",
     "mainImage": {
       "link": "Branding/Tulerie/Tulerie.jpg",
       "description": "The Brave Collection"
