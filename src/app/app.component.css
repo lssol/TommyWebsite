@@ -2,7 +2,8 @@
   height:130px;
   width: 100%;
   z-index: 100;
-  background-color: #fff6f4;
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+  /*backdrop-filter: blur(5px);*/
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -84,7 +85,6 @@ main {
 .social {
   display: flex;
   height:30px;
-  width:120px;
   align-items: center;
   padding-right: 30px;
 }
@@ -163,6 +163,11 @@ main {
   background-image: url('../assets/hamburger.png');
 }
 
+@media (min-width: 660px) {
+  #mobileHeader {
+    display: none;
+  }
+}
 
 #mobileMenu
 {
@@ -187,6 +192,7 @@ main {
 
   transition: transform 0.3s ease;
 }
+
 #mobileMenu ul
 {
   padding:0;
@@ -252,3 +258,4 @@ main {
     display: none;
   }
 }
+

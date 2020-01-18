@@ -85,3 +85,7 @@ div.image:hover img {
   min-height: 400px;
   background: transparent;
 }
+.image {
+  padding-left: 21px;
+  padding-right: 21px;
+}
