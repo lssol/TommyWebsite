@@ -21,10 +21,9 @@
          src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}" />
     </div>
     <div class="textProject row justify-content-between" *ngIf="isFirst">
-      <p class="col-5">
-        {{ project.projectPageTextLeft }}
+      <p class="col-md-5" [innerHTML]="project.projectPageTextLeft">
       </p>
-      <p class="col-5">
+      <p class="col-md-5">
         {{ project.projectPageTextRight }}
       </p>
     </div>

@@ -48,14 +48,15 @@ img {
 .demoGame a:hover {
   background-position: -80px 0;
 }
-.reducedBack {
-  margin-top: -50px;
-  transition: 1s ease;
-}
+
 .backButton {
+  position:absolute;
+  top: 160px;
+  left:30px;
+}
+.reducedBack {
   position: fixed;
-  left:35px;
-  transition: 1s ease;
+  top: 30px;
 }
 .backButton a {
   display: inline-block;

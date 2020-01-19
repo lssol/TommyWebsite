@@ -14,7 +14,7 @@ export class ProjectComponent implements OnInit {
   selectedProject: string = undefined;
   reduceHeader: boolean;
   @HostListener('window:scroll') onScroll() {
-    this.reduceHeader = window.scrollY > 0;
+    this.reduceHeader = window.scrollY > 130;
   }
   constructor(
     private galleryService: GalleryService,
