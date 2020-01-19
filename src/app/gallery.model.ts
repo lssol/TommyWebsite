@@ -18,5 +18,7 @@ export class Project {
     images: Image[];
     overlayBackgroundColor: string;
     overlayTextColor: string;
+    projectPageTextLeft: string;
+    projectPageTextRight: string;
 }
 

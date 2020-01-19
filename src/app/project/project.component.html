@@ -5,10 +5,7 @@
   <div [class.reducedBack]="reduceHeader" *ngIf="project.game" class="demoGame">
     <a title="Play a Demo" href="assets/portfolio/Branding/popland/index.html" target="_blank"></a>
   </div>
-  <h2>
-    {{ project.description }}
-  </h2>
-  <div *ngFor="let image of this.project.images">
+  <div *ngFor="let image of this.project.images; first as isFirst">
     <div class="images-line" *ngIf="image.images">
       <div class="image" *ngFor="let subImg of image.images">
         <img
@@ -21,7 +18,15 @@
       <img
         [style.width.px]="image.width ? image.width : 'auto'"
         [style.maxHeight.px]="image.height ? image.height : 'auto'"
-         src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}"/>
+         src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}" />
+    </div>
+    <div class="textProject row justify-content-between" *ngIf="isFirst">
+      <p class="col-5">
+        {{ project.projectPageTextLeft }}
+      </p>
+      <p class="col-5">
+        {{ project.projectPageTextRight }}
+      </p>
     </div>
   </div>
 </div>
