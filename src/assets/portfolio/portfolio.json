@@ -7,9 +7,9 @@
     "overlayBackgroundColor": "d94b82",
     "overlayTextColor": "ffffff",
     "projectPageTextLeft": "Project: Adulthood<br/>Tools: Ink, watercolors, acrylic paint<br/>Year: 2017",
-    "projectPageTextRight": "The final project I presented as part of my bachelor degree studies in graphic design. <br/>Growing up I had a real hard time facing adulthood. Each illustration is a snapshot of my new life away from home and family, escorted by my childhood imaginary characters. The scenes are drawn realistically in black ink and are invaded by whimsical, colorful characters that are extracted from my numerous child drawings. The project is a tribute to the wonders of childhood and an attempt to reconcile the grown up and the child.<br/>",
+    "projectPageTextRight": "The final project I presented as part of my bachelor degree studies in graphic design. Growing up I had a real hard time facing adulthood. Each illustration is a snapshot of my new life away from home and family, escorted by my childhood imaginary characters. The scenes are drawn realistically in black ink and are invaded by whimsical, colorful characters that are extracted from my numerous child drawings. The project is a tribute to the wonders of childhood and an attempt to reconcile the grown up and the child.",
     "mainImage": {
-      "link": "Illustration/1 Childish Realism.png",
+      "link": "Illustration/1 Childish Realism/Adulthood.jpg",
       "description": "Adulthood",
       "isBig": true
     },
@@ -128,7 +128,7 @@
     "category": "branding",
     "overlayBackgroundColor": "cf8c84",
     "overlayTextColor": "ffffff",
-    "projectPageTextLeft": "Client: Zahava<br/>Services: Graphic Design, Print Design, Web Design, Illustration<br/>Year: 2017—Present<br/>Credits: Jessica Hendricks Yee- Founder and designer",
+    "projectPageTextLeft": "Client: Zahava<br/>Services: Graphic Design, Print Design, Web Design, Illustration<br/>Year: 2017—Present<br/>Credits: Jessica Hendricks Yee- Founder",
     "projectPageTextRight": "Zahava is a New York-based jewelry line infused with intention and meaning. Inspired by ancient wisdom, Zahava’s collection of Gold Jewelry and Brass Ritual objects is crafted by hand as modern heirlooms, to be passed on from woman to woman. Ethically produced by global metalsmiths, predominantly in Tel Aviv, the Jewelry is crafted in 10k Gold, evocative of antique amulets from another time and place. Throughout the collection, you’ll find symbols like olive branches (for peace), peacocks (for wisdom), and camels (for guidance), based on different belief systems and cultures.",
     "mainImage":
     {
@@ -240,12 +240,12 @@
   {
     "id": "pondicherie",
     "name": "Pondichérie",
-    "description": "—Print Design, Graphic Design ",
+    "description": "—Print Design, Graphic Design",
     "game": false,
     "category": "branding",
     "overlayBackgroundColor": "a2a394",
     "overlayTextColor": "ffffff",
-    "projectPageTextLeft": "Client: Pondichérie<br/>Services: Graphic Design, Print Design<br/>Year: 2018<br/>Credits: Devon Fisher- Founder and designer",
+    "projectPageTextLeft": "Client: Pondichérie<br/>Services: Graphic Design, Print Design<br/>Year: 2018<br/>Credits: Devon Fisher- Founder",
     "projectPageTextRight": "Pondichérie is a New York-based line of ethically conscious resortwear. The line features chic handwoven and hand-dyed caftans and dresses with sustainably sourced textiles from India. Pondichérie sets out to employ women in areas that need it most, which is why the textiles used are crafted in India and made locally in New York. Pondichérie’s designs are inspired by travels and are rooted in that incredible jet-set feeling.",
     "mainImage": {
       "link": "Branding/3 Pondicherie/Pondicherie.jpg",

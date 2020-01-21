@@ -99,10 +99,12 @@ div.image:hover img {
   left:0;
   width:100%;
   height:100%;
-  visibility:hidden;
+  opacity: 0;
+  transition: 300ms ease-out;
 }
 .image:hover .overlay {
   visibility: visible;
+  opacity: 1;
 }
 .overlayBg {
   top:0;
