@@ -1,4 +1,4 @@
-<div id="project" *ngIf="project">
+<div id="project" *ngIf="project" [style.maxWidth.px]="project.width ? project.width : 'auto'">
   <div [class.reducedBack]="reduceHeader" class="backButton">
     <a routerLink="/Gallery/{{ project.category }}" title="Back to Project List"></a>
   </div>
@@ -16,6 +16,7 @@
     </div>
     <div class="image" *ngIf="!image.images">
       <img
+
         [style.width.px]="image.width ? image.width : 'auto'"
         [style.maxHeight.px]="image.height ? image.height : 'auto'"
          src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}" />

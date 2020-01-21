@@ -5,7 +5,6 @@ export class Image {
     images: Image[];
     width: number;
     height: number;
-
 }
 
 export class Project {
@@ -20,5 +19,6 @@ export class Project {
     overlayTextColor: string;
     projectPageTextLeft: string;
     projectPageTextRight: string;
+    width: number;
 }
 
