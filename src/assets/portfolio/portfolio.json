@@ -46,27 +46,26 @@
     "projectPageTextRight": "I enjoy drawing random every-day objects or anything else that inspires me.",
     "overlayBackgroundColor": "fffcf3",
     "overlayTextColor": "815c58",
-    "width": 740,
     "mainImage": {"link": "Illustration/Personal Illustrations/Instagram.jpg"},
     "images": [
       {"link": "Illustration/Personal Illustrations/01 Cover Personal Illustrations.jpg"},
-      {"link": "Illustration/Personal Illustrations/02 Baby Deer.jpg"},
-      {"link": "Illustration/Personal Illustrations/03 Lovebirds.jpg"},
-      {"link": "Illustration/Personal Illustrations/04 Doll House.jpg"},
-      {"link": "Illustration/Personal Illustrations/05 Calf.jpg"},
-      {"link": "Illustration/Personal Illustrations/06 Disney-Castle.gif"},
-      {"link": "Illustration/Personal Illustrations/07 Flowers move3.jpg"},
-      {"link": "Illustration/Personal Illustrations/08 Unicorn Cat .jpg"},
-      {"link": "Illustration/Personal Illustrations/09 French Breakfast.jpg"},
-      {"link": "Illustration/Personal Illustrations/10 rainy House.jpg"},
-      {"link": "Illustration/Personal Illustrations/11 Laundry.jpg"},
-      {"link": "Illustration/Personal Illustrations/12 Dog.jpg"},
-      {"link": "Illustration/Personal Illustrations/13 Jeffree Star.jpg"},
-      {"link": "Illustration/Personal Illustrations/14 Mobile.jpg"},
-      {"link": "Illustration/Personal Illustrations/15 Swan.jpg"},
-      {"link": "Illustration/Personal Illustrations/16 Planets.jpg"},
-      {"link": "Illustration/Personal Illustrations/17 Zebra.jpg"},
-      {"link": "Illustration/Personal Illustrations/18 Umbrella.jpg"}
+      {"link": "Illustration/Personal Illustrations/02 Baby Deer.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/03 Lovebirds.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/04 Doll House.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/05 Calf.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/06 Disney-Castle.gif", "width": 740},
+      {"link": "Illustration/Personal Illustrations/07 Flowers move3.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/08 Unicorn Cat .jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/09 French Breakfast.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/10 rainy House.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/11 Laundry.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/12 Dog.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/13 Jeffree Star.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/14 Mobile.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/15 Swan.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/16 Planets.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/17 Zebra.jpg", "width": 740},
+      {"link": "Illustration/Personal Illustrations/18 Umbrella.jpg", "width": 740}
     ]
   },
   {
@@ -96,11 +95,11 @@
     "mainImage": {"link": "Illustration/Animals/Animals.jpg"},
     "images": [
       {"link": "Illustration/Animals/01 Cover Animals.jpg"},
-      {"link": "Illustration/Animals/02 Koala.jpg"},
-      {"link": "Illustration/Animals/03 Toucan.jpg"},
-      {"link": "Illustration/Animals/04 Unicorn.jpg"},
-      {"link": "Illustration/Animals/05 Leopard.jpg"},
-      {"link": "Illustration/Animals/06 Seal.jpg"}
+      {"link": "Illustration/Animals/02 Koala.jpg", "width": 740},
+      {"link": "Illustration/Animals/03 Toucan.jpg", "width": 740},
+      {"link": "Illustration/Animals/04 Unicorn.jpg", "width": 740},
+      {"link": "Illustration/Animals/05 Leopard.jpg", "width": 740},
+      {"link": "Illustration/Animals/06 Seal.jpg", "width": 740}
     ]
   },
   {
