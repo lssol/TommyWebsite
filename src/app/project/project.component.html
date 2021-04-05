@@ -5,7 +5,8 @@
   <div [class.reducedBack]="reduceHeader" *ngIf="project.game" class="demoGame">
     <a title="Play a Demo" href="assets/portfolio/Branding/popland/index.html" target="_blank"></a>
   </div>
-  <div *ngFor="let image of this.project.images; first as isFirst">
+  <div class="image_row" *ngFor="let image of this.project.images; first as isFirst">
+
     <div class="images-line" *ngIf="image.images">
       <div class="image" *ngFor="let subImg of image.images">
         <img
@@ -14,13 +15,14 @@
           src='assets/portfolio/{{ subImg.link }}' alt="{{ subImg.description }}"/>
       </div>
     </div>
-    <div class="image" *ngIf="!image.images">
-      <img
 
+    <div class="image" *ngIf="!image.images && !image.isVideo">
+      <img
         [style.width.px]="image.width ? image.width : 'auto'"
         [style.maxHeight.px]="image.height ? image.height : 'auto'"
          src='assets/portfolio/{{ image.link }}' alt="{{ image.description }}" />
     </div>
+
     <div class="textProject row justify-content-between" *ngIf="isFirst">
       <p class="col-md-5" [innerHTML]="project.projectPageTextLeft">
       </p>
@@ -28,8 +30,31 @@
         {{ project.projectPageTextRight }}
       </p>
     </div>
+
+    <div class="image video" *ngIf="image.isVideo">
+        <iframe 
+          id="ytplayer" 
+          type="text/html"
+          width="600"
+          height="337.5"
+          [src]="safe(image.link)" 
+          allow="accelerometer;gyroscope"
+          allowfullscreen
+          frameborder="0">
+        </iframe>
+    </div>
   </div>
 </div>
 
+<script>
+  function resizeIframe() {
+    let video = document.querySelector("iframe")
+    let currentWidth = video.getBoundingClientRect().width
+    video.height = currentWidth * 9 / 16
+    console.log("resized the video")
+  }
+  window.onload = resizeIframe
+  window.onresize = resizeIframe
+</script>
 <!--[style.height.px]="subImg.height ? subImg.height : 'auto'"-->
 <!--[style.height.px]="image.height ? image.height : 'auto'"-->

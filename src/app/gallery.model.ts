@@ -2,6 +2,7 @@ export class Image {
     link: string;
     description: string;
     isBig: boolean;
+    isVideo: boolean;
     images: Image[];
     width: number;
     height: number;
