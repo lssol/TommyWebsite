@@ -17,6 +17,7 @@ export class ProjectComponent implements OnInit {
   @HostListener('window:scroll') onScroll() {
     this.reduceHeader = window.scrollY > 130;
   }
+
   @HostListener('window:resize') 
   @HostListener('window:load') 
   onResize() {
