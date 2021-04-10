@@ -1,9 +1,9 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
-import {filter, switchMap} from 'rxjs/operators';
-import {Project} from '../gallery.model';
-import {GalleryService} from '../gallery.service';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { filter, switchMap } from 'rxjs/operators';
+import { Project } from '../gallery.model';
+import { GalleryService } from '../gallery.service';
 
 @Component({
   selector: 'app-project',
@@ -18,10 +18,13 @@ export class ProjectComponent implements OnInit {
     this.reduceHeader = window.scrollY > 130;
   }
 
-  @HostListener('window:resize') 
-  @HostListener('window:load') 
+  @HostListener('window:resize')
+  // @HostListener('window:load') 
   onResize() {
     let video = document.querySelector("iframe")
+    if (!video)
+      return
+    console.log("resize")
     let currentWidth = video.getBoundingClientRect().width
     video.height = (currentWidth * 9 / 16) + "px"
   }
@@ -30,12 +33,11 @@ export class ProjectComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private sanitizer: DomSanitizer
-  ) {  }
+  ) { }
 
   public safe(url: string) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url + "?controls=0")
   }
-
 
   ngOnInit() {
     this.route.paramMap.subscribe(p => this.selectedProject = p.get('id'));
@@ -47,7 +49,7 @@ export class ProjectComponent implements OnInit {
       filter(e => e instanceof NavigationEnd),
       switchMap(() => this.galleryService.getProject(this.selectedProject))
     ).subscribe(p => {
-        this.project = p;
-      });
+      this.project = p;
+    });
   }
 }

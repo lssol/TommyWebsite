@@ -181,6 +181,41 @@
     ]
   },
   {
+    "id": "grizzly",
+    "name": "Grizzly Cheri",
+    "description": "—Graphic Design, Web Design, Illustration, Photography",
+    "category": "branding",
+    "overlayBackgroundColor": "f2f2f2",
+    "overlayTextColor": "815c58",
+    "projectPageTextLeft": "Client: Grizzly Chéri<br/>Services: Graphic Design, Web Design, Illustration, Video editing, Photography<br/>Year: 2020—Present<br/>Credits: Carlotta Spinella- Founder and designer",
+    "projectPageTextRight": "Grizzly Chéri is a Paris based jewelry brand, designed to be loved. Inspired by nature and nostalgia, Grizzly Chéri’s dreamy collections of 14K fine gold-plated brass jewelry are carefully crafted by hand and designed by a 100% female creative team. Each piece stems from a drawing straight out of the imagination of the designers. The jewels are then manufactured and delicately hand painted following the enameling technique.",
+    "mainImage":
+    {
+      "link": "Branding/grizzly/Grizzly-Cover.gif"
+    },
+    "images": [
+      { "link": "Branding/grizzly/Cover.gif" },
+      { "link": "Branding/grizzly/01 Grizzly website.jpg" },
+      { "link": "Branding/grizzly/02 Grizzly website.gif" },
+      { "link": "Branding/grizzly/03 Grizzly mobile.gif" },
+      { "link": "Branding/grizzly/03 Grizzly values.jpg" },
+      { "link": "Branding/grizzly/04 Grizzly newsletter.gif" },
+      { "link": "Branding/grizzly/05 Grizzly stories.jpg" },
+      { "link": "Branding/grizzly/06 Grizzly stories.gif" },
+      { "link": "Branding/grizzly/07 Grizzly photography.jpg" },
+      { "link": "Branding/grizzly/08 Grizzly photography.jpg" },
+      { "link": "Branding/grizzly/09 Grizzly gift tags.jpg" },
+      { "link": "Branding/grizzly/10 Grizzly gift tags.jpg" },
+      { "link": "Branding/grizzly/11 Grizzly aquarelle.jpg" },
+      { "link": "Branding/grizzly/12 Grizzly aquarelle.jpg" },
+      { "link": "Branding/grizzly/13 Grizzly aquarelle.jpg" },
+      {
+        "link": "https://www.youtube.com/embed/rlpdklT8M7s",
+        "isVideo": true
+      }
+    ]
+  },
+  {
     "id": "events",
     "name": "Events",
     "description": "—Illustration, Graphic Design",
@@ -196,51 +231,6 @@
       {"link": "Branding/5 Events Invitations/01 cover events.jpg"},
       {"link": "Branding/5 Events Invitations/02 Dana Wedding.jpg"},
       {"link": "Branding/5 Events Invitations/03 Tali Wedding.jpg"}
-    ]
-  },
-  {
-    "id": "popland",
-    "name": "Popland",
-    "description": "—Game Design, Ilustration",
-    "game": true,
-    "category": "branding",
-    "overlayBackgroundColor": "f2f2f2",
-    "overlayTextColor": "815c58",
-    "projectPageTextLeft": "Project: Popland<br/>Services: Game Design, Illustration<br/>Year: 2017",
-    "projectPageTextRight": "Popland is a platformer mobile game featuring a saxophone who tries to find the lost notes to famous pop songs of the 20s century. On his journey he will pass through decades such as the 50s and the 60s and will have to be careful when stumbling upon the most vicious enemy of all: junk food. Each decade is designed and inspired by it’s pop culture elements: colors, fashion, items, technology and celebrity icons. Popland was a school project of mine and is inspired by my passion to pop culture and music.",
-    "mainImage": {
-      "link": "Branding/1 Popland/Popland.jpg",
-      "description": "Popland"
-    },
-    "images": [
-      {
-        "link": "Branding/1 Popland/01 Popland Cover.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/02 Popland Logo.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/03 Popland Characters.jpg"
-      },
-      {
-        "link": "https://www.youtube.com/embed/rlpdklT8M7s",
-        "isVideo": true
-      },
-      {
-        "link": "Branding/1 Popland/04 Popland Bad Characters.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/05 Popland 50s.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/06 Popland 60s.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/07 Popland 70s.jpg"
-      },
-      {
-        "link": "Branding/1 Popland/08 Popland 80s.jpg"
-      }
     ]
   },
   {

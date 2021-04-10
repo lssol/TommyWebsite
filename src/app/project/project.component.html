@@ -37,6 +37,7 @@
           type="text/html"
           width="600"
           height="337.5"
+          (load)="onResize()"
           [src]="safe(image.link)" 
           allow="accelerometer;gyroscope"
           allowfullscreen
@@ -45,16 +46,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  function resizeIframe() {
-    let video = document.querySelector("iframe")
-    let currentWidth = video.getBoundingClientRect().width
-    video.height = currentWidth * 9 / 16
-    console.log("resized the video")
-  }
-  window.onload = resizeIframe
-  window.onresize = resizeIframe
-</script>
-<!--[style.height.px]="subImg.height ? subImg.height : 'auto'"-->
-<!--[style.height.px]="image.height ? image.height : 'auto'"-->
