@@ -1,7 +1,7 @@
 # Tsoooki
 
 A portfolio website written in Angular.
-YOu can visit the website at http://tsoooki.com/Gallery/branding
+You can visit the website at http://tsoooki.com/Gallery/branding
 
 ## How it works
 
